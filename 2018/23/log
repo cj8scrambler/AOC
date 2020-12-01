@@ -1,0 +1,13 @@
+Added (10,12,12)  maxes: 10/12/12
+Added (12,14,12)  maxes: 12/14/12
+Added (16,12,12)  maxes: 16/14/12
+Added (14,14,14)  maxes: 16/14/14
+Added (50,50,50)  maxes: 50/50/50
+Added (10,10,10)  maxes: 50/50/50
+Max: [50, 50, 50] max radius element-#4: 200
+Answer #1: 6 nanbots in range
+Reset best to value 1 : [[0, 0, 0, 9999, 0]]
+Reset best to value 2 : [[5, 10, 10, 9999, 0]]
+Reset best to value 3 : [[9, 11, 12, 9999, 0]]
+Reset best to value 4 : [[10, 14, 12, 9999, 0]]
+Reset best to value 5 : [[12, 12, 12, 9999, 0]]
