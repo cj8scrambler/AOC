@@ -1,11 +1,4 @@
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-
-#pip install --upgrade pip wheel
-#pip install treelib
-#pip freeze > requirements.txt
-
+## AOC tasks
 Day 1: Expense report: find 2/3 #s that sum to 2020 and take product
 Day 2: Passwords: count passwords that match rules 
 Day 3: Map: travel through forest on given slope and count tree collisions
@@ -15,11 +8,19 @@ Day 6:
 Day 7: 
 
 
+# Python venv setup
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
 
-#Rust
-#####
-cargo new one
-cd one
+#pip install --upgrade pip wheel
+#pip install treelib
+#pip freeze > requirements.txt
+
+
+# Rust setup
+cargo new rust
+cd rust
 vi src/main.rs
 
 cargo build
