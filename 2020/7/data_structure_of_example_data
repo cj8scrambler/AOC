@@ -1,0 +1,12 @@
+{
+  'light red':    [{'color': 'bright white', 'num': 1}, {'color': 'muted yellow', 'num': 2}]
+  'dark orange':  [{'color': 'bright white', 'num': 3}, {'color': 'muted yellow', 'num': 4}]
+  'bright white': [{'color': 'shiny gold', 'num': 1}]
+  'muted yellow': [{'color': 'shiny gold', 'num': 2}, {'color': 'faded blue', 'num': 9}]
+  'shiny gold':   [{'color': 'dark olive', 'num': 1}, {'color': 'vibrant plum', 'num': 2}]
+  'dark olive':   [{'color': 'faded blue', 'num': 3}, {'color': 'dotted black', 'num': 4}]
+  'vibrant plum': [{'color': 'faded blue', 'num': 5}, {'color': 'dotted black', 'num': 6}]
+  'faded blue':   []
+  'dotted black': []
+}
+
