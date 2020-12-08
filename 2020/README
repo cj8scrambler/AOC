@@ -6,6 +6,7 @@ Day 4: Passports: validate passport records
 Day 5: Plane Seat: Find seats using binary search code
 Day 6: Customs forms: Count up answers to customs form questions
 Day 7: Bags in bags: parse a map of bags inside of bags
+Day 8: Fix gameboy: parse opcodes: acc, jmp, nop
 
 
 # Python venv setup
