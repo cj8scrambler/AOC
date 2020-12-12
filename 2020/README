@@ -8,6 +8,7 @@ Day 6: Customs forms: Count up answers to customs form questions
 Day 7: Bags in bags: parse a map of bags inside of bags
 Day 8: Fix gameboy: parse opcodes: acc, jmp, nop
 Day 9: XMAS cipher: find 2 numbers in previous 25 that sum to it
+Day 10: jolt adapter combos
 
 
 # Python venv setup
