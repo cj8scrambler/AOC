@@ -9,6 +9,11 @@ Day 7: Bags in bags: parse a map of bags inside of bags
 Day 8: Fix gameboy: parse opcodes: acc, jmp, nop
 Day 9: XMAS cipher: find 2 numbers in previous 25 that sum to it
 Day 10: jolt adapter combos
+Day 11: Airplane seating bisecting algorithm
+Day 12: navigating directions: NESWRLF
+Day 13: bus schedules
+Day 14: docking program - masks with variables
+Day 15: memory game
 
 
 # Python venv setup
