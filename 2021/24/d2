@@ -1,0 +1,265 @@
+inp w
+mul x 0    # x = 0
+add x z    # x = 0+0  [ z initially 0 ]
+mod x 26   # x = 0 = 0 % 26
+div z 1    # z = = 0 = 0 / 1 [awlays a NOOP]
+add x 13   # x = 13 = 0 + 13
+eql x w    # x = 0 (13 == w) [w must be 1-9]
+eql x 0    # x = 1 = NOT (x)
+mul y 0    # y = 0
+add y 25   # y = 25 = 0 + 25
+mul y x    # y = 25 = 25 * 1   [x must be 1 above]
+add y 1    # y = 26 = 25 + 1
+mul z y    # z = 0 = 0 * 26 
+mul y 0    # y = 0
+add y w    # y = w
+add y 13   # y = w + 13
+mul y x    # y = 1 * (w + 13)
+add z y   ## z = w + 13  [ w is 1st digit ]
+
+inp w
+mul x 0
+add x z    # x = (#1 + 13)
+mod x 26   # x = (#1 + 13) % 26
+div z 1
+add x 11   # x = ((#1 + 13) % 26) + 11
+eql x w    # x = 0 (x>11 and w < 10)
+eql x 0    # x = 1
+mul y 0    # y = 0
+add y 25   # y = 25
+mul y x    # y = 25
+add y 1    # y = 26
+mul z y    # z = (#1 + 13) * 26
+mul y 0    # y = 0
+add y w    # y = (#2)
+add y 10
+mul y x
+add z y
+
+inp w
+mul x 0
+add x z
+mod x 26
+div z 1
+add x 15
+eql x w
+eql x 0
+mul y 0
+add y 25
+mul y x
+add y 1
+mul z y
+mul y 0
+add y w
+add y 5
+mul y x
+add z y
+
+inp w
+mul x 0
+add x z
+mod x 26
+div z 26
+add x -11
+eql x w
+eql x 0
+mul y 0
+add y 25
+mul y x
+add y 1
+mul z y
+mul y 0
+add y w
+add y 14
+mul y x
+add z y
+
+inp w
+mul x 0
+add x z
+mod x 26
+div z 1
+add x 14
+eql x w
+eql x 0
+mul y 0
+add y 25
+mul y x
+add y 1
+mul z y
+mul y 0
+add y w
+add y 5
+mul y x
+add z y
+
+inp w
+mul x 0
+add x z
+mod x 26
+div z 26
+add x 0
+eql x w
+eql x 0
+mul y 0
+add y 25
+mul y x
+add y 1
+mul z y
+mul y 0
+add y w
+add y 15
+mul y x
+add z y
+
+inp w
+mul x 0
+add x z
+mod x 26
+div z 1
+add x 12
+eql x w
+eql x 0
+mul y 0
+add y 25
+mul y x
+add y 1
+mul z y
+mul y 0
+add y w
+add y 4
+mul y x
+add z y
+
+inp w
+mul x 0
+add x z
+mod x 26
+div z 1
+add x 12
+eql x w
+eql x 0
+mul y 0
+add y 25
+mul y x
+add y 1
+mul z y
+mul y 0
+add y w
+add y 11
+mul y x
+add z y
+
+inp w
+mul x 0
+add x z
+mod x 26
+div z 1
+add x 14
+eql x w
+eql x 0
+mul y 0
+add y 25
+mul y x
+add y 1
+mul z y
+mul y 0
+add y w
+add y 1
+mul y x
+add z y
+
+inp w
+mul x 0
+add x z
+mod x 26
+div z 26
+add x -6
+eql x w
+eql x 0
+mul y 0
+add y 25
+mul y x
+add y 1
+mul z y
+mul y 0
+add y w
+add y 15
+mul y x
+add z y
+
+inp w
+mul x 0
+add x z
+mod x 26
+div z 26
+add x -10
+eql x w
+eql x 0
+mul y 0
+add y 25
+mul y x
+add y 1
+mul z y
+mul y 0
+add y w
+add y 12
+mul y x
+add z y
+
+inp w
+mul x 0
+add x z
+mod x 26
+div z 26
+add x -12
+eql x w
+eql x 0
+mul y 0
+add y 25
+mul y x
+add y 1
+mul z y
+mul y 0
+add y w
+add y 8
+mul y x
+add z y
+
+inp w
+mul x 0
+add x z
+mod x 26
+div z 26
+add x -3
+eql x w
+eql x 0
+mul y 0
+add y 25
+mul y x
+add y 1
+mul z y
+mul y 0
+add y w
+add y 14
+mul y x
+add z y
+
+inp w     # w = 14th digit
+mul x 0   # x = 0
+add x z   # x = z [result of 13th digit]
+mod x 26  # x = z%26
+div z 26  # z = z/26
+add x -5  # x = (z%26) -5
+eql x w   # is 14thd digit (z%26)-5?
+eql x 0   # x = !x
+mul y 0
+add y 25  # y = 25
+mul y x 
+add y 1
+mul z y
+mul y 0
+add y w
+add y 9
+mul y x
+add z y
