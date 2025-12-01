@@ -1,0 +1,22 @@
+Initial arrangement:
+125
+
+After 1 blink:
+253000
+
+After 2 blinks:
+253 0
+
+After 3 blinks:
+512072 1 
+
+After 4 blinks:
+512 72 2024
+
+After 5 blinks:
+1036288 7 2 20 24
+
+After 6 blinks:
+2097446912 14168 4048 2 0 2 4
+
+Answer is 7

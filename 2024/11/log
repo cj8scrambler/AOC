@@ -1,0 +1,2655 @@
+125: change to 253000; num: 25
+ 253000: split to 253 and 0; num: 24
+  253: change to 512072; num: 23
+   512072: split to 512 and 72; num: 22
+    512: change to 1036288; num: 21
+     1036288: change to 2097446912; num: 20
+      2097446912: split to 20974 and 46912; num: 19
+       20974: change to 42451376; num: 18
+        42451376: split to 4245 and 1376; num: 17
+         4245: split to 42 and 45; num: 16
+          42: split to 4 and 2; num: 15
+           4: change to 8096; num: 14
+            8096: split to 80 and 96; num: 13
+             80: split to 8 and 0; num: 12
+              8: change to 16192; num: 11
+               16192: change to 32772608; num: 10
+                32772608: split to 3277 and 2608; num: 9
+                 3277: split to 32 and 77; num: 8
+                  32: split to 3 and 2; num: 7
+                   3: change to 6072; num: 6
+                    6072: split to 60 and 72; num: 5
+                     60: split to 6 and 0; num: 4
+                      6: change to 12144; num: 3
+                       12144: change to 24579456; num: 2
+                        24579456: split to 2457 and 9456; num: 1
+                         2457: done: returning 1
+                         9456: done: returning 1
+                        24579456: set solved[24579456][1] = 1 + 1
+                       12144: children returned 2
+                       12144: set solved[12144][2] = 2
+                      6: children returned 2
+                      6: set solved[6][3] = 2
+                      0: flip to 1; num: 3
+                       1: change to 2024; num: 2
+                        2024: split to 20 and 24; num: 1
+                         20: done: returning 1
+                         24: done: returning 1
+                        2024: set solved[2024][1] = 1 + 1
+                       1: children returned 2
+                       1: set solved[1][2] = 2
+                      0: set solved[0][3] = 2
+                     60: set solved[60][4] = 2 + 2
+                     72: split to 7 and 2; num: 4
+                      7: change to 14168; num: 3
+                       14168: change to 28676032; num: 2
+                        28676032: split to 2867 and 6032; num: 1
+                         2867: done: returning 1
+                         6032: done: returning 1
+                        28676032: set solved[28676032][1] = 1 + 1
+                       14168: children returned 2
+                       14168: set solved[14168][2] = 2
+                      7: children returned 2
+                      7: set solved[7][3] = 2
+                      2: change to 4048; num: 3
+                       4048: split to 40 and 48; num: 2
+                        40: split to 4 and 0; num: 1
+                         4: done: returning 1
+                         0: done: returning 1
+                        40: set solved[40][1] = 1 + 1
+                        48: split to 4 and 8; num: 1
+                         4: done: returning 1
+                         8: done: returning 1
+                        48: set solved[48][1] = 1 + 1
+                       4048: set solved[4048][2] = 2 + 2
+                      2: children returned 4
+                      2: set solved[2][3] = 4
+                     72: set solved[72][4] = 2 + 4
+                    6072: set solved[6072][5] = 4 + 6
+                   3: children returned 10
+                   3: set solved[3][6] = 10
+                   2: change to 4048; num: 6
+                    4048: split to 40 and 48; num: 5
+                     40: split to 4 and 0; num: 4
+                      4: change to 8096; num: 3
+                       8096: split to 80 and 96; num: 2
+                        80: split to 8 and 0; num: 1
+                         8: done: returning 1
+                         0: done: returning 1
+                        80: set solved[80][1] = 1 + 1
+                        96: split to 9 and 6; num: 1
+                         9: done: returning 1
+                         6: done: returning 1
+                        96: set solved[96][1] = 1 + 1
+                       8096: set solved[8096][2] = 2 + 2
+                      4: children returned 4
+                      4: set solved[4][3] = 4
+                      0: USED SOLVED VALUE: 2
+                     40: set solved[40][4] = 4 + 2
+                     48: split to 4 and 8; num: 4
+                      4: USED SOLVED VALUE: 4
+                      8: change to 16192; num: 3
+                       16192: change to 32772608; num: 2
+                        32772608: split to 3277 and 2608; num: 1
+                         3277: done: returning 1
+                         2608: done: returning 1
+                        32772608: set solved[32772608][1] = 1 + 1
+                       16192: children returned 2
+                       16192: set solved[16192][2] = 2
+                      8: children returned 2
+                      8: set solved[8][3] = 2
+                     48: set solved[48][4] = 4 + 2
+                    4048: set solved[4048][5] = 6 + 6
+                   2: children returned 12
+                   2: set solved[2][6] = 12
+                  32: set solved[32][7] = 10 + 12
+                  77: split to 7 and 7; num: 7
+                   7: change to 14168; num: 6
+                    14168: change to 28676032; num: 5
+                     28676032: split to 2867 and 6032; num: 4
+                      2867: split to 28 and 67; num: 3
+                       28: split to 2 and 8; num: 2
+                        2: change to 4048; num: 1
+                         4048: done: returning 1
+                        2: children returned 1
+                        2: set solved[2][1] = 1
+                        8: change to 16192; num: 1
+                         16192: done: returning 1
+                        8: children returned 1
+                        8: set solved[8][1] = 1
+                       28: set solved[28][2] = 1 + 1
+                       67: split to 6 and 7; num: 2
+                        6: change to 12144; num: 1
+                         12144: done: returning 1
+                        6: children returned 1
+                        6: set solved[6][1] = 1
+                        7: change to 14168; num: 1
+                         14168: done: returning 1
+                        7: children returned 1
+                        7: set solved[7][1] = 1
+                       67: set solved[67][2] = 1 + 1
+                      2867: set solved[2867][3] = 2 + 2
+                      6032: split to 60 and 32; num: 3
+                       60: split to 6 and 0; num: 2
+                        6: USED SOLVED VALUE: 1
+                        0: flip to 1; num: 1
+                         1: done: returning 1
+                        0: set solved[0][1] = 1
+                       60: set solved[60][2] = 1 + 1
+                       32: split to 3 and 2; num: 2
+                        3: change to 6072; num: 1
+                         6072: done: returning 1
+                        3: children returned 1
+                        3: set solved[3][1] = 1
+                        2: USED SOLVED VALUE: 1
+                       32: set solved[32][2] = 1 + 1
+                      6032: set solved[6032][3] = 2 + 2
+                     28676032: set solved[28676032][4] = 4 + 4
+                    14168: children returned 8
+                    14168: set solved[14168][5] = 8
+                   7: children returned 8
+                   7: set solved[7][6] = 8
+                   7: USED SOLVED VALUE: 8
+                  77: set solved[77][7] = 8 + 8
+                 3277: set solved[3277][8] = 22 + 16
+                 2608: split to 26 and 8; num: 8
+                  26: split to 2 and 6; num: 7
+                   2: USED SOLVED VALUE: 12
+                   6: change to 12144; num: 6
+                    12144: change to 24579456; num: 5
+                     24579456: split to 2457 and 9456; num: 4
+                      2457: split to 24 and 57; num: 3
+                       24: split to 2 and 4; num: 2
+                        2: USED SOLVED VALUE: 1
+                        4: change to 8096; num: 1
+                         8096: done: returning 1
+                        4: children returned 1
+                        4: set solved[4][1] = 1
+                       24: set solved[24][2] = 1 + 1
+                       57: split to 5 and 7; num: 2
+                        5: change to 10120; num: 1
+                         10120: done: returning 1
+                        5: children returned 1
+                        5: set solved[5][1] = 1
+                        7: USED SOLVED VALUE: 1
+                       57: set solved[57][2] = 1 + 1
+                      2457: set solved[2457][3] = 2 + 2
+                      9456: split to 94 and 56; num: 3
+                       94: split to 9 and 4; num: 2
+                        9: change to 18216; num: 1
+                         18216: done: returning 1
+                        9: children returned 1
+                        9: set solved[9][1] = 1
+                        4: USED SOLVED VALUE: 1
+                       94: set solved[94][2] = 1 + 1
+                       56: split to 5 and 6; num: 2
+                        5: USED SOLVED VALUE: 1
+                        6: USED SOLVED VALUE: 1
+                       56: set solved[56][2] = 1 + 1
+                      9456: set solved[9456][3] = 2 + 2
+                     24579456: set solved[24579456][4] = 4 + 4
+                    12144: children returned 8
+                    12144: set solved[12144][5] = 8
+                   6: children returned 8
+                   6: set solved[6][6] = 8
+                  26: set solved[26][7] = 12 + 8
+                  8: change to 16192; num: 7
+                   16192: change to 32772608; num: 6
+                    32772608: split to 3277 and 2608; num: 5
+                     3277: split to 32 and 77; num: 4
+                      32: split to 3 and 2; num: 3
+                       3: change to 6072; num: 2
+                        6072: split to 60 and 72; num: 1
+                         60: done: returning 1
+                         72: done: returning 1
+                        6072: set solved[6072][1] = 1 + 1
+                       3: children returned 2
+                       3: set solved[3][2] = 2
+                       2: change to 4048; num: 2
+                        4048: split to 40 and 48; num: 1
+                         40: done: returning 1
+                         48: done: returning 1
+                        4048: set solved[4048][1] = 1 + 1
+                       2: children returned 2
+                       2: set solved[2][2] = 2
+                      32: set solved[32][3] = 2 + 2
+                      77: split to 7 and 7; num: 3
+                       7: change to 14168; num: 2
+                        14168: change to 28676032; num: 1
+                         28676032: done: returning 1
+                        14168: children returned 1
+                        14168: set solved[14168][1] = 1
+                       7: children returned 1
+                       7: set solved[7][2] = 1
+                       7: USED SOLVED VALUE: 1
+                      77: set solved[77][3] = 1 + 1
+                     3277: set solved[3277][4] = 4 + 2
+                     2608: split to 26 and 8; num: 4
+                      26: split to 2 and 6; num: 3
+                       2: USED SOLVED VALUE: 2
+                       6: change to 12144; num: 2
+                        12144: change to 24579456; num: 1
+                         24579456: done: returning 1
+                        12144: children returned 1
+                        12144: set solved[12144][1] = 1
+                       6: children returned 1
+                       6: set solved[6][2] = 1
+                      26: set solved[26][3] = 2 + 1
+                      8: USED SOLVED VALUE: 2
+                     2608: set solved[2608][4] = 3 + 2
+                    32772608: set solved[32772608][5] = 6 + 5
+                   16192: children returned 11
+                   16192: set solved[16192][6] = 11
+                  8: children returned 11
+                  8: set solved[8][7] = 11
+                 2608: set solved[2608][8] = 20 + 11
+                32772608: set solved[32772608][9] = 38 + 31
+               16192: children returned 69
+               16192: set solved[16192][10] = 69
+              8: children returned 69
+              8: set solved[8][11] = 69
+              0: flip to 1; num: 11
+               1: change to 2024; num: 10
+                2024: split to 20 and 24; num: 9
+                 20: split to 2 and 0; num: 8
+                  2: change to 4048; num: 7
+                   4048: split to 40 and 48; num: 6
+                    40: split to 4 and 0; num: 5
+                     4: change to 8096; num: 4
+                      8096: split to 80 and 96; num: 3
+                       80: split to 8 and 0; num: 2
+                        8: USED SOLVED VALUE: 1
+                        0: USED SOLVED VALUE: 1
+                       80: set solved[80][2] = 1 + 1
+                       96: split to 9 and 6; num: 2
+                        9: USED SOLVED VALUE: 1
+                        6: USED SOLVED VALUE: 1
+                       96: set solved[96][2] = 1 + 1
+                      8096: set solved[8096][3] = 2 + 2
+                     4: children returned 4
+                     4: set solved[4][4] = 4
+                     0: flip to 1; num: 4
+                      1: change to 2024; num: 3
+                       2024: split to 20 and 24; num: 2
+                        20: split to 2 and 0; num: 1
+                         2: done: returning 1
+                         0: done: returning 1
+                        20: set solved[20][1] = 1 + 1
+                        24: split to 2 and 4; num: 1
+                         2: done: returning 1
+                         4: done: returning 1
+                        24: set solved[24][1] = 1 + 1
+                       2024: set solved[2024][2] = 2 + 2
+                      1: children returned 4
+                      1: set solved[1][3] = 4
+                     0: set solved[0][4] = 4
+                    40: set solved[40][5] = 4 + 4
+                    48: split to 4 and 8; num: 5
+                     4: USED SOLVED VALUE: 4
+                     8: change to 16192; num: 4
+                      16192: change to 32772608; num: 3
+                       32772608: split to 3277 and 2608; num: 2
+                        3277: split to 32 and 77; num: 1
+                         32: done: returning 1
+                         77: done: returning 1
+                        3277: set solved[3277][1] = 1 + 1
+                        2608: split to 26 and 8; num: 1
+                         26: done: returning 1
+                         8: done: returning 1
+                        2608: set solved[2608][1] = 1 + 1
+                       32772608: set solved[32772608][2] = 2 + 2
+                      16192: children returned 4
+                      16192: set solved[16192][3] = 4
+                     8: children returned 4
+                     8: set solved[8][4] = 4
+                    48: set solved[48][5] = 4 + 4
+                   4048: set solved[4048][6] = 8 + 8
+                  2: children returned 16
+                  2: set solved[2][7] = 16
+                  0: flip to 1; num: 7
+                   1: change to 2024; num: 6
+                    2024: split to 20 and 24; num: 5
+                     20: split to 2 and 0; num: 4
+                      2: USED SOLVED VALUE: 4
+                      0: USED SOLVED VALUE: 2
+                     20: set solved[20][4] = 4 + 2
+                     24: split to 2 and 4; num: 4
+                      2: USED SOLVED VALUE: 4
+                      4: USED SOLVED VALUE: 4
+                     24: set solved[24][4] = 4 + 4
+                    2024: set solved[2024][5] = 6 + 8
+                   1: children returned 14
+                   1: set solved[1][6] = 14
+                  0: set solved[0][7] = 14
+                 20: set solved[20][8] = 16 + 14
+                 24: split to 2 and 4; num: 8
+                  2: USED SOLVED VALUE: 16
+                  4: change to 8096; num: 7
+                   8096: split to 80 and 96; num: 6
+                    80: split to 8 and 0; num: 5
+                     8: USED SOLVED VALUE: 4
+                     0: USED SOLVED VALUE: 4
+                    80: set solved[80][5] = 4 + 4
+                    96: split to 9 and 6; num: 5
+                     9: change to 18216; num: 4
+                      18216: change to 36869184; num: 3
+                       36869184: split to 3686 and 9184; num: 2
+                        3686: split to 36 and 86; num: 1
+                         36: done: returning 1
+                         86: done: returning 1
+                        3686: set solved[3686][1] = 1 + 1
+                        9184: split to 91 and 84; num: 1
+                         91: done: returning 1
+                         84: done: returning 1
+                        9184: set solved[9184][1] = 1 + 1
+                       36869184: set solved[36869184][2] = 2 + 2
+                      18216: children returned 4
+                      18216: set solved[18216][3] = 4
+                     9: children returned 4
+                     9: set solved[9][4] = 4
+                     6: change to 12144; num: 4
+                      12144: change to 24579456; num: 3
+                       24579456: split to 2457 and 9456; num: 2
+                        2457: split to 24 and 57; num: 1
+                         24: done: returning 1
+                         57: done: returning 1
+                        2457: set solved[2457][1] = 1 + 1
+                        9456: split to 94 and 56; num: 1
+                         94: done: returning 1
+                         56: done: returning 1
+                        9456: set solved[9456][1] = 1 + 1
+                       24579456: set solved[24579456][2] = 2 + 2
+                      12144: children returned 4
+                      12144: set solved[12144][3] = 4
+                     6: children returned 4
+                     6: set solved[6][4] = 4
+                    96: set solved[96][5] = 4 + 4
+                   8096: set solved[8096][6] = 8 + 8
+                  4: children returned 16
+                  4: set solved[4][7] = 16
+                 24: set solved[24][8] = 16 + 16
+                2024: set solved[2024][9] = 30 + 32
+               1: children returned 62
+               1: set solved[1][10] = 62
+              0: set solved[0][11] = 62
+             80: set solved[80][12] = 69 + 62
+             96: split to 9 and 6; num: 12
+              9: change to 18216; num: 11
+               18216: change to 36869184; num: 10
+                36869184: split to 3686 and 9184; num: 9
+                 3686: split to 36 and 86; num: 8
+                  36: split to 3 and 6; num: 7
+                   3: USED SOLVED VALUE: 10
+                   6: USED SOLVED VALUE: 8
+                  36: set solved[36][7] = 10 + 8
+                  86: split to 8 and 6; num: 7
+                   8: change to 16192; num: 6
+                    16192: change to 32772608; num: 5
+                     32772608: split to 3277 and 2608; num: 4
+                      3277: split to 32 and 77; num: 3
+                       32: USED SOLVED VALUE: 2
+                       77: split to 7 and 7; num: 2
+                        7: USED SOLVED VALUE: 1
+                        7: USED SOLVED VALUE: 1
+                       77: set solved[77][2] = 1 + 1
+                      3277: set solved[3277][3] = 2 + 2
+                      2608: split to 26 and 8; num: 3
+                       26: split to 2 and 6; num: 2
+                        2: USED SOLVED VALUE: 1
+                        6: USED SOLVED VALUE: 1
+                       26: set solved[26][2] = 1 + 1
+                       8: change to 16192; num: 2
+                        16192: change to 32772608; num: 1
+                         32772608: done: returning 1
+                        16192: children returned 1
+                        16192: set solved[16192][1] = 1
+                       8: children returned 1
+                       8: set solved[8][2] = 1
+                      2608: set solved[2608][3] = 2 + 1
+                     32772608: set solved[32772608][4] = 4 + 3
+                    16192: children returned 7
+                    16192: set solved[16192][5] = 7
+                   8: children returned 7
+                   8: set solved[8][6] = 7
+                   6: USED SOLVED VALUE: 8
+                  86: set solved[86][7] = 7 + 8
+                 3686: set solved[3686][8] = 18 + 15
+                 9184: split to 91 and 84; num: 8
+                  91: split to 9 and 1; num: 7
+                   9: change to 18216; num: 6
+                    18216: change to 36869184; num: 5
+                     36869184: split to 3686 and 9184; num: 4
+                      3686: split to 36 and 86; num: 3
+                       36: split to 3 and 6; num: 2
+                        3: USED SOLVED VALUE: 1
+                        6: USED SOLVED VALUE: 1
+                       36: set solved[36][2] = 1 + 1
+                       86: split to 8 and 6; num: 2
+                        8: USED SOLVED VALUE: 1
+                        6: USED SOLVED VALUE: 1
+                       86: set solved[86][2] = 1 + 1
+                      3686: set solved[3686][3] = 2 + 2
+                      9184: split to 91 and 84; num: 3
+                       91: split to 9 and 1; num: 2
+                        9: USED SOLVED VALUE: 1
+                        1: change to 2024; num: 1
+                         2024: done: returning 1
+                        1: children returned 1
+                        1: set solved[1][1] = 1
+                       91: set solved[91][2] = 1 + 1
+                       84: split to 8 and 4; num: 2
+                        8: USED SOLVED VALUE: 1
+                        4: USED SOLVED VALUE: 1
+                       84: set solved[84][2] = 1 + 1
+                      9184: set solved[9184][3] = 2 + 2
+                     36869184: set solved[36869184][4] = 4 + 4
+                    18216: children returned 8
+                    18216: set solved[18216][5] = 8
+                   9: children returned 8
+                   9: set solved[9][6] = 8
+                   1: USED SOLVED VALUE: 14
+                  91: set solved[91][7] = 8 + 14
+                  84: split to 8 and 4; num: 7
+                   8: USED SOLVED VALUE: 7
+                   4: change to 8096; num: 6
+                    8096: split to 80 and 96; num: 5
+                     80: split to 8 and 0; num: 4
+                      8: USED SOLVED VALUE: 2
+                      0: USED SOLVED VALUE: 2
+                     80: set solved[80][4] = 2 + 2
+                     96: split to 9 and 6; num: 4
+                      9: change to 18216; num: 3
+                       18216: change to 36869184; num: 2
+                        36869184: split to 3686 and 9184; num: 1
+                         3686: done: returning 1
+                         9184: done: returning 1
+                        36869184: set solved[36869184][1] = 1 + 1
+                       18216: children returned 2
+                       18216: set solved[18216][2] = 2
+                      9: children returned 2
+                      9: set solved[9][3] = 2
+                      6: USED SOLVED VALUE: 2
+                     96: set solved[96][4] = 2 + 2
+                    8096: set solved[8096][5] = 4 + 4
+                   4: children returned 8
+                   4: set solved[4][6] = 8
+                  84: set solved[84][7] = 7 + 8
+                 9184: set solved[9184][8] = 22 + 15
+                36869184: set solved[36869184][9] = 33 + 37
+               18216: children returned 70
+               18216: set solved[18216][10] = 70
+              9: children returned 70
+              9: set solved[9][11] = 70
+              6: change to 12144; num: 11
+               12144: change to 24579456; num: 10
+                24579456: split to 2457 and 9456; num: 9
+                 2457: split to 24 and 57; num: 8
+                  24: split to 2 and 4; num: 7
+                   2: USED SOLVED VALUE: 12
+                   4: USED SOLVED VALUE: 8
+                  24: set solved[24][7] = 12 + 8
+                  57: split to 5 and 7; num: 7
+                   5: change to 10120; num: 6
+                    10120: change to 20482880; num: 5
+                     20482880: split to 2048 and 2880; num: 4
+                      2048: split to 20 and 48; num: 3
+                       20: split to 2 and 0; num: 2
+                        2: USED SOLVED VALUE: 1
+                        0: USED SOLVED VALUE: 1
+                       20: set solved[20][2] = 1 + 1
+                       48: split to 4 and 8; num: 2
+                        4: USED SOLVED VALUE: 1
+                        8: USED SOLVED VALUE: 1
+                       48: set solved[48][2] = 1 + 1
+                      2048: set solved[2048][3] = 2 + 2
+                      2880: split to 28 and 80; num: 3
+                       28: USED SOLVED VALUE: 2
+                       80: USED SOLVED VALUE: 2
+                      2880: set solved[2880][3] = 2 + 2
+                     20482880: set solved[20482880][4] = 4 + 4
+                    10120: children returned 8
+                    10120: set solved[10120][5] = 8
+                   5: children returned 8
+                   5: set solved[5][6] = 8
+                   7: USED SOLVED VALUE: 8
+                  57: set solved[57][7] = 8 + 8
+                 2457: set solved[2457][8] = 20 + 16
+                 9456: split to 94 and 56; num: 8
+                  94: split to 9 and 4; num: 7
+                   9: USED SOLVED VALUE: 8
+                   4: USED SOLVED VALUE: 8
+                  94: set solved[94][7] = 8 + 8
+                  56: split to 5 and 6; num: 7
+                   5: USED SOLVED VALUE: 8
+                   6: USED SOLVED VALUE: 8
+                  56: set solved[56][7] = 8 + 8
+                 9456: set solved[9456][8] = 16 + 16
+                24579456: set solved[24579456][9] = 36 + 32
+               12144: children returned 68
+               12144: set solved[12144][10] = 68
+              6: children returned 68
+              6: set solved[6][11] = 68
+             96: set solved[96][12] = 70 + 68
+            8096: set solved[8096][13] = 131 + 138
+           4: children returned 269
+           4: set solved[4][14] = 269
+           2: change to 4048; num: 14
+            4048: split to 40 and 48; num: 13
+             40: split to 4 and 0; num: 12
+              4: change to 8096; num: 11
+               8096: split to 80 and 96; num: 10
+                80: split to 8 and 0; num: 9
+                 8: change to 16192; num: 8
+                  16192: change to 32772608; num: 7
+                   32772608: split to 3277 and 2608; num: 6
+                    3277: split to 32 and 77; num: 5
+                     32: split to 3 and 2; num: 4
+                      3: change to 6072; num: 3
+                       6072: split to 60 and 72; num: 2
+                        60: split to 6 and 0; num: 1
+                         6: done: returning 1
+                         0: done: returning 1
+                        60: set solved[60][1] = 1 + 1
+                        72: split to 7 and 2; num: 1
+                         7: done: returning 1
+                         2: done: returning 1
+                        72: set solved[72][1] = 1 + 1
+                       6072: set solved[6072][2] = 2 + 2
+                      3: children returned 4
+                      3: set solved[3][3] = 4
+                      2: USED SOLVED VALUE: 4
+                     32: set solved[32][4] = 4 + 4
+                     77: split to 7 and 7; num: 4
+                      7: USED SOLVED VALUE: 2
+                      7: USED SOLVED VALUE: 2
+                     77: set solved[77][4] = 2 + 2
+                    3277: set solved[3277][5] = 8 + 4
+                    2608: split to 26 and 8; num: 5
+                     26: split to 2 and 6; num: 4
+                      2: USED SOLVED VALUE: 4
+                      6: USED SOLVED VALUE: 2
+                     26: set solved[26][4] = 4 + 2
+                     8: USED SOLVED VALUE: 4
+                    2608: set solved[2608][5] = 6 + 4
+                   32772608: set solved[32772608][6] = 12 + 10
+                  16192: children returned 22
+                  16192: set solved[16192][7] = 22
+                 8: children returned 22
+                 8: set solved[8][8] = 22
+                 0: flip to 1; num: 8
+                  1: change to 2024; num: 7
+                   2024: split to 20 and 24; num: 6
+                    20: split to 2 and 0; num: 5
+                     2: change to 4048; num: 4
+                      4048: split to 40 and 48; num: 3
+                       40: split to 4 and 0; num: 2
+                        4: USED SOLVED VALUE: 1
+                        0: USED SOLVED VALUE: 1
+                       40: set solved[40][2] = 1 + 1
+                       48: USED SOLVED VALUE: 2
+                      4048: set solved[4048][3] = 2 + 2
+                     2: children returned 4
+                     2: set solved[2][4] = 4
+                     0: USED SOLVED VALUE: 4
+                    20: set solved[20][5] = 4 + 4
+                    24: split to 2 and 4; num: 5
+                     2: USED SOLVED VALUE: 4
+                     4: USED SOLVED VALUE: 4
+                    24: set solved[24][5] = 4 + 4
+                   2024: set solved[2024][6] = 8 + 8
+                  1: children returned 16
+                  1: set solved[1][7] = 16
+                 0: set solved[0][8] = 16
+                80: set solved[80][9] = 22 + 16
+                96: split to 9 and 6; num: 9
+                 9: change to 18216; num: 8
+                  18216: change to 36869184; num: 7
+                   36869184: split to 3686 and 9184; num: 6
+                    3686: split to 36 and 86; num: 5
+                     36: split to 3 and 6; num: 4
+                      3: USED SOLVED VALUE: 4
+                      6: USED SOLVED VALUE: 2
+                     36: set solved[36][4] = 4 + 2
+                     86: split to 8 and 6; num: 4
+                      8: USED SOLVED VALUE: 2
+                      6: USED SOLVED VALUE: 2
+                     86: set solved[86][4] = 2 + 2
+                    3686: set solved[3686][5] = 6 + 4
+                    9184: split to 91 and 84; num: 5
+                     91: split to 9 and 1; num: 4
+                      9: USED SOLVED VALUE: 2
+                      1: USED SOLVED VALUE: 4
+                     91: set solved[91][4] = 2 + 4
+                     84: split to 8 and 4; num: 4
+                      8: USED SOLVED VALUE: 2
+                      4: USED SOLVED VALUE: 4
+                     84: set solved[84][4] = 2 + 4
+                    9184: set solved[9184][5] = 6 + 6
+                   36869184: set solved[36869184][6] = 10 + 12
+                  18216: children returned 22
+                  18216: set solved[18216][7] = 22
+                 9: children returned 22
+                 9: set solved[9][8] = 22
+                 6: change to 12144; num: 8
+                  12144: change to 24579456; num: 7
+                   24579456: split to 2457 and 9456; num: 6
+                    2457: split to 24 and 57; num: 5
+                     24: USED SOLVED VALUE: 8
+                     57: split to 5 and 7; num: 4
+                      5: change to 10120; num: 3
+                       10120: change to 20482880; num: 2
+                        20482880: split to 2048 and 2880; num: 1
+                         2048: done: returning 1
+                         2880: done: returning 1
+                        20482880: set solved[20482880][1] = 1 + 1
+                       10120: children returned 2
+                       10120: set solved[10120][2] = 2
+                      5: children returned 2
+                      5: set solved[5][3] = 2
+                      7: USED SOLVED VALUE: 2
+                     57: set solved[57][4] = 2 + 2
+                    2457: set solved[2457][5] = 8 + 4
+                    9456: split to 94 and 56; num: 5
+                     94: split to 9 and 4; num: 4
+                      9: USED SOLVED VALUE: 2
+                      4: USED SOLVED VALUE: 4
+                     94: set solved[94][4] = 2 + 4
+                     56: split to 5 and 6; num: 4
+                      5: USED SOLVED VALUE: 2
+                      6: USED SOLVED VALUE: 2
+                     56: set solved[56][4] = 2 + 2
+                    9456: set solved[9456][5] = 6 + 4
+                   24579456: set solved[24579456][6] = 12 + 10
+                  12144: children returned 22
+                  12144: set solved[12144][7] = 22
+                 6: children returned 22
+                 6: set solved[6][8] = 22
+                96: set solved[96][9] = 22 + 22
+               8096: set solved[8096][10] = 38 + 44
+              4: children returned 82
+              4: set solved[4][11] = 82
+              0: USED SOLVED VALUE: 62
+             40: set solved[40][12] = 82 + 62
+             48: split to 4 and 8; num: 12
+              4: USED SOLVED VALUE: 82
+              8: USED SOLVED VALUE: 69
+             48: set solved[48][12] = 82 + 69
+            4048: set solved[4048][13] = 144 + 151
+           2: children returned 295
+           2: set solved[2][14] = 295
+          42: set solved[42][15] = 269 + 295
+          45: split to 4 and 5; num: 15
+           4: USED SOLVED VALUE: 269
+           5: change to 10120; num: 14
+            10120: change to 20482880; num: 13
+             20482880: split to 2048 and 2880; num: 12
+              2048: split to 20 and 48; num: 11
+               20: split to 2 and 0; num: 10
+                2: change to 4048; num: 9
+                 4048: split to 40 and 48; num: 8
+                  40: split to 4 and 0; num: 7
+                   4: USED SOLVED VALUE: 8
+                   0: flip to 1; num: 6
+                    1: change to 2024; num: 5
+                     2024: split to 20 and 24; num: 4
+                      20: split to 2 and 0; num: 3
+                       2: USED SOLVED VALUE: 2
+                       0: flip to 1; num: 2
+                        1: USED SOLVED VALUE: 1
+                       0: set solved[0][2] = 1
+                      20: set solved[20][3] = 2 + 1
+                      24: split to 2 and 4; num: 3
+                       2: USED SOLVED VALUE: 2
+                       4: change to 8096; num: 2
+                        8096: split to 80 and 96; num: 1
+                         80: done: returning 1
+                         96: done: returning 1
+                        8096: set solved[8096][1] = 1 + 1
+                       4: children returned 2
+                       4: set solved[4][2] = 2
+                      24: set solved[24][3] = 2 + 2
+                     2024: set solved[2024][4] = 3 + 4
+                    1: children returned 7
+                    1: set solved[1][5] = 7
+                   0: set solved[0][6] = 7
+                  40: set solved[40][7] = 8 + 7
+                  48: split to 4 and 8; num: 7
+                   4: USED SOLVED VALUE: 8
+                   8: USED SOLVED VALUE: 7
+                  48: set solved[48][7] = 8 + 7
+                 4048: set solved[4048][8] = 15 + 15
+                2: children returned 30
+                2: set solved[2][9] = 30
+                0: flip to 1; num: 9
+                 1: change to 2024; num: 8
+                  2024: split to 20 and 24; num: 7
+                   20: split to 2 and 0; num: 6
+                    2: change to 4048; num: 5
+                     4048: split to 40 and 48; num: 4
+                      40: split to 4 and 0; num: 3
+                       4: USED SOLVED VALUE: 2
+                       0: USED SOLVED VALUE: 1
+                      40: set solved[40][3] = 2 + 1
+                      48: split to 4 and 8; num: 3
+                       4: USED SOLVED VALUE: 2
+                       8: USED SOLVED VALUE: 1
+                      48: set solved[48][3] = 2 + 1
+                     4048: set solved[4048][4] = 3 + 3
+                    2: children returned 6
+                    2: set solved[2][5] = 6
+                    0: flip to 1; num: 5
+                     1: change to 2024; num: 4
+                      2024: split to 20 and 24; num: 3
+                       20: USED SOLVED VALUE: 2
+                       24: USED SOLVED VALUE: 2
+                      2024: set solved[2024][3] = 2 + 2
+                     1: children returned 4
+                     1: set solved[1][4] = 4
+                    0: set solved[0][5] = 4
+                   20: set solved[20][6] = 6 + 4
+                   24: split to 2 and 4; num: 6
+                    2: USED SOLVED VALUE: 6
+                    4: change to 8096; num: 5
+                     8096: split to 80 and 96; num: 4
+                      80: split to 8 and 0; num: 3
+                       8: USED SOLVED VALUE: 1
+                       0: USED SOLVED VALUE: 1
+                      80: set solved[80][3] = 1 + 1
+                      96: split to 9 and 6; num: 3
+                       9: change to 18216; num: 2
+                        18216: change to 36869184; num: 1
+                         36869184: done: returning 1
+                        18216: children returned 1
+                        18216: set solved[18216][1] = 1
+                       9: children returned 1
+                       9: set solved[9][2] = 1
+                       6: USED SOLVED VALUE: 1
+                      96: set solved[96][3] = 1 + 1
+                     8096: set solved[8096][4] = 2 + 2
+                    4: children returned 4
+                    4: set solved[4][5] = 4
+                   24: set solved[24][6] = 6 + 4
+                  2024: set solved[2024][7] = 10 + 10
+                 1: children returned 20
+                 1: set solved[1][8] = 20
+                0: set solved[0][9] = 20
+               20: set solved[20][10] = 30 + 20
+               48: split to 4 and 8; num: 10
+                4: change to 8096; num: 9
+                 8096: split to 80 and 96; num: 8
+                  80: split to 8 and 0; num: 7
+                   8: USED SOLVED VALUE: 7
+                   0: USED SOLVED VALUE: 7
+                  80: set solved[80][7] = 7 + 7
+                  96: split to 9 and 6; num: 7
+                   9: USED SOLVED VALUE: 8
+                   6: USED SOLVED VALUE: 8
+                  96: set solved[96][7] = 8 + 8
+                 8096: set solved[8096][8] = 14 + 16
+                4: children returned 30
+                4: set solved[4][9] = 30
+                8: change to 16192; num: 9
+                 16192: change to 32772608; num: 8
+                  32772608: split to 3277 and 2608; num: 7
+                   3277: split to 32 and 77; num: 6
+                    32: split to 3 and 2; num: 5
+                     3: change to 6072; num: 4
+                      6072: split to 60 and 72; num: 3
+                       60: USED SOLVED VALUE: 2
+                       72: split to 7 and 2; num: 2
+                        7: USED SOLVED VALUE: 1
+                        2: USED SOLVED VALUE: 1
+                       72: set solved[72][2] = 1 + 1
+                      6072: set solved[6072][3] = 2 + 2
+                     3: children returned 4
+                     3: set solved[3][4] = 4
+                     2: USED SOLVED VALUE: 4
+                    32: set solved[32][5] = 4 + 4
+                    77: split to 7 and 7; num: 5
+                     7: change to 14168; num: 4
+                      14168: change to 28676032; num: 3
+                       28676032: split to 2867 and 6032; num: 2
+                        2867: split to 28 and 67; num: 1
+                         28: done: returning 1
+                         67: done: returning 1
+                        2867: set solved[2867][1] = 1 + 1
+                        6032: split to 60 and 32; num: 1
+                         60: done: returning 1
+                         32: done: returning 1
+                        6032: set solved[6032][1] = 1 + 1
+                       28676032: set solved[28676032][2] = 2 + 2
+                      14168: children returned 4
+                      14168: set solved[14168][3] = 4
+                     7: children returned 4
+                     7: set solved[7][4] = 4
+                     7: USED SOLVED VALUE: 4
+                    77: set solved[77][5] = 4 + 4
+                   3277: set solved[3277][6] = 8 + 8
+                   2608: split to 26 and 8; num: 6
+                    26: split to 2 and 6; num: 5
+                     2: USED SOLVED VALUE: 4
+                     6: USED SOLVED VALUE: 4
+                    26: set solved[26][5] = 4 + 4
+                    8: change to 16192; num: 5
+                     16192: change to 32772608; num: 4
+                      32772608: split to 3277 and 2608; num: 3
+                       3277: split to 32 and 77; num: 2
+                        32: split to 3 and 2; num: 1
+                         3: done: returning 1
+                         2: done: returning 1
+                        32: set solved[32][1] = 1 + 1
+                        77: split to 7 and 7; num: 1
+                         7: done: returning 1
+                         7: done: returning 1
+                        77: set solved[77][1] = 1 + 1
+                       3277: set solved[3277][2] = 2 + 2
+                       2608: split to 26 and 8; num: 2
+                        26: split to 2 and 6; num: 1
+                         2: done: returning 1
+                         6: done: returning 1
+                        26: set solved[26][1] = 1 + 1
+                        8: USED SOLVED VALUE: 1
+                       2608: set solved[2608][2] = 2 + 1
+                      32772608: set solved[32772608][3] = 4 + 3
+                     16192: children returned 7
+                     16192: set solved[16192][4] = 7
+                    8: children returned 7
+                    8: set solved[8][5] = 7
+                   2608: set solved[2608][6] = 8 + 7
+                  32772608: set solved[32772608][7] = 16 + 15
+                 16192: children returned 31
+                 16192: set solved[16192][8] = 31
+                8: children returned 31
+                8: set solved[8][9] = 31
+               48: set solved[48][10] = 30 + 31
+              2048: set solved[2048][11] = 50 + 61
+              2880: split to 28 and 80; num: 11
+               28: split to 2 and 8; num: 10
+                2: USED SOLVED VALUE: 30
+                8: USED SOLVED VALUE: 31
+               28: set solved[28][10] = 30 + 31
+               80: split to 8 and 0; num: 10
+                8: USED SOLVED VALUE: 31
+                0: USED SOLVED VALUE: 20
+               80: set solved[80][10] = 31 + 20
+              2880: set solved[2880][11] = 61 + 51
+             20482880: set solved[20482880][12] = 111 + 112
+            10120: children returned 223
+            10120: set solved[10120][13] = 223
+           5: children returned 223
+           5: set solved[5][14] = 223
+          45: set solved[45][15] = 269 + 223
+         4245: set solved[4245][16] = 564 + 492
+         1376: split to 13 and 76; num: 16
+          13: split to 1 and 3; num: 15
+           1: change to 2024; num: 14
+            2024: split to 20 and 24; num: 13
+             20: split to 2 and 0; num: 12
+              2: change to 4048; num: 11
+               4048: split to 40 and 48; num: 10
+                40: split to 4 and 0; num: 9
+                 4: change to 8096; num: 8
+                  8096: split to 80 and 96; num: 7
+                   80: split to 8 and 0; num: 6
+                    8: USED SOLVED VALUE: 7
+                    0: USED SOLVED VALUE: 4
+                   80: set solved[80][6] = 7 + 4
+                   96: split to 9 and 6; num: 6
+                    9: change to 18216; num: 5
+                     18216: change to 36869184; num: 4
+                      36869184: split to 3686 and 9184; num: 3
+                       3686: split to 36 and 86; num: 2
+                        36: split to 3 and 6; num: 1
+                         3: done: returning 1
+                         6: done: returning 1
+                        36: set solved[36][1] = 1 + 1
+                        86: split to 8 and 6; num: 1
+                         8: done: returning 1
+                         6: done: returning 1
+                        86: set solved[86][1] = 1 + 1
+                       3686: set solved[3686][2] = 2 + 2
+                       9184: split to 91 and 84; num: 2
+                        91: split to 9 and 1; num: 1
+                         9: done: returning 1
+                         1: done: returning 1
+                        91: set solved[91][1] = 1 + 1
+                        84: split to 8 and 4; num: 1
+                         8: done: returning 1
+                         4: done: returning 1
+                        84: set solved[84][1] = 1 + 1
+                       9184: set solved[9184][2] = 2 + 2
+                      36869184: set solved[36869184][3] = 4 + 4
+                     18216: children returned 8
+                     18216: set solved[18216][4] = 8
+                    9: children returned 8
+                    9: set solved[9][5] = 8
+                    6: change to 12144; num: 5
+                     12144: change to 24579456; num: 4
+                      24579456: split to 2457 and 9456; num: 3
+                       2457: split to 24 and 57; num: 2
+                        24: USED SOLVED VALUE: 2
+                        57: split to 5 and 7; num: 1
+                         5: done: returning 1
+                         7: done: returning 1
+                        57: set solved[57][1] = 1 + 1
+                       2457: set solved[2457][2] = 2 + 2
+                       9456: split to 94 and 56; num: 2
+                        94: split to 9 and 4; num: 1
+                         9: done: returning 1
+                         4: done: returning 1
+                        94: set solved[94][1] = 1 + 1
+                        56: split to 5 and 6; num: 1
+                         5: done: returning 1
+                         6: done: returning 1
+                        56: set solved[56][1] = 1 + 1
+                       9456: set solved[9456][2] = 2 + 2
+                      24579456: set solved[24579456][3] = 4 + 4
+                     12144: children returned 8
+                     12144: set solved[12144][4] = 8
+                    6: children returned 8
+                    6: set solved[6][5] = 8
+                   96: set solved[96][6] = 8 + 8
+                  8096: set solved[8096][7] = 11 + 16
+                 4: children returned 27
+                 4: set solved[4][8] = 27
+                 0: USED SOLVED VALUE: 16
+                40: set solved[40][9] = 27 + 16
+                48: split to 4 and 8; num: 9
+                 4: USED SOLVED VALUE: 27
+                 8: USED SOLVED VALUE: 22
+                48: set solved[48][9] = 27 + 22
+               4048: set solved[4048][10] = 43 + 49
+              2: children returned 92
+              2: set solved[2][11] = 92
+              0: USED SOLVED VALUE: 62
+             20: set solved[20][12] = 92 + 62
+             24: split to 2 and 4; num: 12
+              2: USED SOLVED VALUE: 92
+              4: USED SOLVED VALUE: 82
+             24: set solved[24][12] = 92 + 82
+            2024: set solved[2024][13] = 154 + 174
+           1: children returned 328
+           1: set solved[1][14] = 328
+           3: change to 6072; num: 14
+            6072: split to 60 and 72; num: 13
+             60: split to 6 and 0; num: 12
+              6: USED SOLVED VALUE: 68
+              0: USED SOLVED VALUE: 62
+             60: set solved[60][12] = 68 + 62
+             72: split to 7 and 2; num: 12
+              7: change to 14168; num: 11
+               14168: change to 28676032; num: 10
+                28676032: split to 2867 and 6032; num: 9
+                 2867: split to 28 and 67; num: 8
+                  28: split to 2 and 8; num: 7
+                   2: USED SOLVED VALUE: 12
+                   8: USED SOLVED VALUE: 7
+                  28: set solved[28][7] = 12 + 7
+                  67: split to 6 and 7; num: 7
+                   6: USED SOLVED VALUE: 8
+                   7: USED SOLVED VALUE: 8
+                  67: set solved[67][7] = 8 + 8
+                 2867: set solved[2867][8] = 19 + 16
+                 6032: split to 60 and 32; num: 8
+                  60: split to 6 and 0; num: 7
+                   6: USED SOLVED VALUE: 8
+                   0: USED SOLVED VALUE: 7
+                  60: set solved[60][7] = 8 + 7
+                  32: USED SOLVED VALUE: 22
+                 6032: set solved[6032][8] = 15 + 22
+                28676032: set solved[28676032][9] = 35 + 37
+               14168: children returned 72
+               14168: set solved[14168][10] = 72
+              7: children returned 72
+              7: set solved[7][11] = 72
+              2: USED SOLVED VALUE: 92
+             72: set solved[72][12] = 72 + 92
+            6072: set solved[6072][13] = 130 + 164
+           3: children returned 294
+           3: set solved[3][14] = 294
+          13: set solved[13][15] = 328 + 294
+          76: split to 7 and 6; num: 15
+           7: change to 14168; num: 14
+            14168: change to 28676032; num: 13
+             28676032: split to 2867 and 6032; num: 12
+              2867: split to 28 and 67; num: 11
+               28: USED SOLVED VALUE: 61
+               67: split to 6 and 7; num: 10
+                6: change to 12144; num: 9
+                 12144: change to 24579456; num: 8
+                  24579456: split to 2457 and 9456; num: 7
+                   2457: split to 24 and 57; num: 6
+                    24: USED SOLVED VALUE: 8
+                    57: split to 5 and 7; num: 5
+                     5: change to 10120; num: 4
+                      10120: change to 20482880; num: 3
+                       20482880: split to 2048 and 2880; num: 2
+                        2048: split to 20 and 48; num: 1
+                         20: done: returning 1
+                         48: done: returning 1
+                        2048: set solved[2048][1] = 1 + 1
+                        2880: split to 28 and 80; num: 1
+                         28: done: returning 1
+                         80: done: returning 1
+                        2880: set solved[2880][1] = 1 + 1
+                       20482880: set solved[20482880][2] = 2 + 2
+                      10120: children returned 4
+                      10120: set solved[10120][3] = 4
+                     5: children returned 4
+                     5: set solved[5][4] = 4
+                     7: USED SOLVED VALUE: 4
+                    57: set solved[57][5] = 4 + 4
+                   2457: set solved[2457][6] = 8 + 8
+                   9456: split to 94 and 56; num: 6
+                    94: split to 9 and 4; num: 5
+                     9: USED SOLVED VALUE: 4
+                     4: USED SOLVED VALUE: 4
+                    94: set solved[94][5] = 4 + 4
+                    56: split to 5 and 6; num: 5
+                     5: USED SOLVED VALUE: 4
+                     6: USED SOLVED VALUE: 4
+                    56: set solved[56][5] = 4 + 4
+                   9456: set solved[9456][6] = 8 + 8
+                  24579456: set solved[24579456][7] = 16 + 16
+                 12144: children returned 32
+                 12144: set solved[12144][8] = 32
+                6: children returned 32
+                6: set solved[6][9] = 32
+                7: change to 14168; num: 9
+                 14168: change to 28676032; num: 8
+                  28676032: split to 2867 and 6032; num: 7
+                   2867: split to 28 and 67; num: 6
+                    28: split to 2 and 8; num: 5
+                     2: USED SOLVED VALUE: 4
+                     8: USED SOLVED VALUE: 4
+                    28: set solved[28][5] = 4 + 4
+                    67: split to 6 and 7; num: 5
+                     6: USED SOLVED VALUE: 4
+                     7: USED SOLVED VALUE: 4
+                    67: set solved[67][5] = 4 + 4
+                   2867: set solved[2867][6] = 8 + 8
+                   6032: split to 60 and 32; num: 6
+                    60: split to 6 and 0; num: 5
+                     6: USED SOLVED VALUE: 4
+                     0: USED SOLVED VALUE: 4
+                    60: set solved[60][5] = 4 + 4
+                    32: USED SOLVED VALUE: 8
+                   6032: set solved[6032][6] = 8 + 8
+                  28676032: set solved[28676032][7] = 16 + 16
+                 14168: children returned 32
+                 14168: set solved[14168][8] = 32
+                7: children returned 32
+                7: set solved[7][9] = 32
+               67: set solved[67][10] = 32 + 32
+              2867: set solved[2867][11] = 61 + 64
+              6032: split to 60 and 32; num: 11
+               60: split to 6 and 0; num: 10
+                6: USED SOLVED VALUE: 32
+                0: USED SOLVED VALUE: 20
+               60: set solved[60][10] = 32 + 20
+               32: split to 3 and 2; num: 10
+                3: change to 6072; num: 9
+                 6072: split to 60 and 72; num: 8
+                  60: USED SOLVED VALUE: 15
+                  72: split to 7 and 2; num: 7
+                   7: USED SOLVED VALUE: 8
+                   2: USED SOLVED VALUE: 12
+                  72: set solved[72][7] = 8 + 12
+                 6072: set solved[6072][8] = 15 + 20
+                3: children returned 35
+                3: set solved[3][9] = 35
+                2: USED SOLVED VALUE: 30
+               32: set solved[32][10] = 35 + 30
+              6032: set solved[6032][11] = 52 + 65
+             28676032: set solved[28676032][12] = 125 + 117
+            14168: children returned 242
+            14168: set solved[14168][13] = 242
+           7: children returned 242
+           7: set solved[7][14] = 242
+           6: change to 12144; num: 14
+            12144: change to 24579456; num: 13
+             24579456: split to 2457 and 9456; num: 12
+              2457: split to 24 and 57; num: 11
+               24: split to 2 and 4; num: 10
+                2: USED SOLVED VALUE: 30
+                4: USED SOLVED VALUE: 30
+               24: set solved[24][10] = 30 + 30
+               57: split to 5 and 7; num: 10
+                5: change to 10120; num: 9
+                 10120: change to 20482880; num: 8
+                  20482880: split to 2048 and 2880; num: 7
+                   2048: split to 20 and 48; num: 6
+                    20: USED SOLVED VALUE: 8
+                    48: USED SOLVED VALUE: 8
+                   2048: set solved[2048][6] = 8 + 8
+                   2880: split to 28 and 80; num: 6
+                    28: USED SOLVED VALUE: 8
+                    80: USED SOLVED VALUE: 8
+                   2880: set solved[2880][6] = 8 + 8
+                  20482880: set solved[20482880][7] = 16 + 16
+                 10120: children returned 32
+                 10120: set solved[10120][8] = 32
+                5: children returned 32
+                5: set solved[5][9] = 32
+                7: USED SOLVED VALUE: 32
+               57: set solved[57][10] = 32 + 32
+              2457: set solved[2457][11] = 60 + 64
+              9456: split to 94 and 56; num: 11
+               94: split to 9 and 4; num: 10
+                9: change to 18216; num: 9
+                 18216: change to 36869184; num: 8
+                  36869184: split to 3686 and 9184; num: 7
+                   3686: split to 36 and 86; num: 6
+                    36: split to 3 and 6; num: 5
+                     3: USED SOLVED VALUE: 4
+                     6: USED SOLVED VALUE: 4
+                    36: set solved[36][5] = 4 + 4
+                    86: split to 8 and 6; num: 5
+                     8: USED SOLVED VALUE: 4
+                     6: USED SOLVED VALUE: 4
+                    86: set solved[86][5] = 4 + 4
+                   3686: set solved[3686][6] = 8 + 8
+                   9184: split to 91 and 84; num: 6
+                    91: split to 9 and 1; num: 5
+                     9: USED SOLVED VALUE: 4
+                     1: USED SOLVED VALUE: 4
+                    91: set solved[91][5] = 4 + 4
+                    84: split to 8 and 4; num: 5
+                     8: USED SOLVED VALUE: 4
+                     4: USED SOLVED VALUE: 4
+                    84: set solved[84][5] = 4 + 4
+                   9184: set solved[9184][6] = 8 + 8
+                  36869184: set solved[36869184][7] = 16 + 16
+                 18216: children returned 32
+                 18216: set solved[18216][8] = 32
+                9: children returned 32
+                9: set solved[9][9] = 32
+                4: USED SOLVED VALUE: 30
+               94: set solved[94][10] = 32 + 30
+               56: split to 5 and 6; num: 10
+                5: USED SOLVED VALUE: 32
+                6: USED SOLVED VALUE: 32
+               56: set solved[56][10] = 32 + 32
+              9456: set solved[9456][11] = 62 + 64
+             24579456: set solved[24579456][12] = 124 + 126
+            12144: children returned 250
+            12144: set solved[12144][13] = 250
+           6: children returned 250
+           6: set solved[6][14] = 250
+          76: set solved[76][15] = 242 + 250
+         1376: set solved[1376][16] = 622 + 492
+        42451376: set solved[42451376][17] = 1056 + 1114
+       20974: children returned 2170
+       20974: set solved[20974][18] = 2170
+       46912: change to 94949888; num: 18
+        94949888: split to 9494 and 9888; num: 17
+         9494: split to 94 and 94; num: 16
+          94: split to 9 and 4; num: 15
+           9: change to 18216; num: 14
+            18216: change to 36869184; num: 13
+             36869184: split to 3686 and 9184; num: 12
+              3686: split to 36 and 86; num: 11
+               36: split to 3 and 6; num: 10
+                3: USED SOLVED VALUE: 35
+                6: USED SOLVED VALUE: 32
+               36: set solved[36][10] = 35 + 32
+               86: split to 8 and 6; num: 10
+                8: USED SOLVED VALUE: 31
+                6: USED SOLVED VALUE: 32
+               86: set solved[86][10] = 31 + 32
+              3686: set solved[3686][11] = 67 + 63
+              9184: split to 91 and 84; num: 11
+               91: split to 9 and 1; num: 10
+                9: USED SOLVED VALUE: 32
+                1: change to 2024; num: 9
+                 2024: split to 20 and 24; num: 8
+                  20: split to 2 and 0; num: 7
+                   2: USED SOLVED VALUE: 12
+                   0: USED SOLVED VALUE: 7
+                  20: set solved[20][7] = 12 + 7
+                  24: USED SOLVED VALUE: 20
+                 2024: set solved[2024][8] = 19 + 20
+                1: children returned 39
+                1: set solved[1][9] = 39
+               91: set solved[91][10] = 32 + 39
+               84: split to 8 and 4; num: 10
+                8: USED SOLVED VALUE: 31
+                4: USED SOLVED VALUE: 30
+               84: set solved[84][10] = 31 + 30
+              9184: set solved[9184][11] = 71 + 61
+             36869184: set solved[36869184][12] = 130 + 132
+            18216: children returned 262
+            18216: set solved[18216][13] = 262
+           9: children returned 262
+           9: set solved[9][14] = 262
+           4: USED SOLVED VALUE: 269
+          94: set solved[94][15] = 262 + 269
+          94: USED SOLVED VALUE: 531
+         9494: set solved[9494][16] = 531 + 531
+         9888: split to 98 and 88; num: 16
+          98: split to 9 and 8; num: 15
+           9: USED SOLVED VALUE: 262
+           8: change to 16192; num: 14
+            16192: change to 32772608; num: 13
+             32772608: split to 3277 and 2608; num: 12
+              3277: split to 32 and 77; num: 11
+               32: USED SOLVED VALUE: 65
+               77: split to 7 and 7; num: 10
+                7: USED SOLVED VALUE: 32
+                7: USED SOLVED VALUE: 32
+               77: set solved[77][10] = 32 + 32
+              3277: set solved[3277][11] = 65 + 64
+              2608: split to 26 and 8; num: 11
+               26: split to 2 and 6; num: 10
+                2: USED SOLVED VALUE: 30
+                6: USED SOLVED VALUE: 32
+               26: set solved[26][10] = 30 + 32
+               8: change to 16192; num: 10
+                16192: change to 32772608; num: 9
+                 32772608: split to 3277 and 2608; num: 8
+                  3277: split to 32 and 77; num: 7
+                   32: split to 3 and 2; num: 6
+                    3: change to 6072; num: 5
+                     6072: split to 60 and 72; num: 4
+                      60: split to 6 and 0; num: 3
+                       6: USED SOLVED VALUE: 1
+                       0: USED SOLVED VALUE: 1
+                      60: set solved[60][3] = 1 + 1
+                      72: split to 7 and 2; num: 3
+                       7: USED SOLVED VALUE: 1
+                       2: USED SOLVED VALUE: 2
+                      72: set solved[72][3] = 1 + 2
+                     6072: set solved[6072][4] = 2 + 3
+                    3: children returned 5
+                    3: set solved[3][5] = 5
+                    2: USED SOLVED VALUE: 6
+                   32: set solved[32][6] = 5 + 6
+                   77: split to 7 and 7; num: 6
+                    7: change to 14168; num: 5
+                     14168: change to 28676032; num: 4
+                      28676032: split to 2867 and 6032; num: 3
+                       2867: split to 28 and 67; num: 2
+                        28: split to 2 and 8; num: 1
+                         2: done: returning 1
+                         8: done: returning 1
+                        28: set solved[28][1] = 1 + 1
+                        67: split to 6 and 7; num: 1
+                         6: done: returning 1
+                         7: done: returning 1
+                        67: set solved[67][1] = 1 + 1
+                       2867: set solved[2867][2] = 2 + 2
+                       6032: split to 60 and 32; num: 2
+                        60: USED SOLVED VALUE: 2
+                        32: USED SOLVED VALUE: 2
+                       6032: set solved[6032][2] = 2 + 2
+                      28676032: set solved[28676032][3] = 4 + 4
+                     14168: children returned 8
+                     14168: set solved[14168][4] = 8
+                    7: children returned 8
+                    7: set solved[7][5] = 8
+                    7: USED SOLVED VALUE: 8
+                   77: set solved[77][6] = 8 + 8
+                  3277: set solved[3277][7] = 11 + 16
+                  2608: split to 26 and 8; num: 7
+                   26: split to 2 and 6; num: 6
+                    2: USED SOLVED VALUE: 6
+                    6: USED SOLVED VALUE: 8
+                   26: set solved[26][6] = 6 + 8
+                   8: USED SOLVED VALUE: 7
+                  2608: set solved[2608][7] = 14 + 7
+                 32772608: set solved[32772608][8] = 27 + 21
+                16192: children returned 48
+                16192: set solved[16192][9] = 48
+               8: children returned 48
+               8: set solved[8][10] = 48
+              2608: set solved[2608][11] = 62 + 48
+             32772608: set solved[32772608][12] = 129 + 110
+            16192: children returned 239
+            16192: set solved[16192][13] = 239
+           8: children returned 239
+           8: set solved[8][14] = 239
+          98: set solved[98][15] = 262 + 239
+          88: split to 8 and 8; num: 15
+           8: USED SOLVED VALUE: 239
+           8: USED SOLVED VALUE: 239
+          88: set solved[88][15] = 239 + 239
+         9888: set solved[9888][16] = 501 + 478
+        94949888: set solved[94949888][17] = 1062 + 979
+       46912: children returned 2041
+       46912: set solved[46912][18] = 2041
+      2097446912: set solved[2097446912][19] = 2170 + 2041
+     1036288: children returned 4211
+     1036288: set solved[1036288][20] = 4211
+    512: children returned 4211
+    512: set solved[512][21] = 4211
+    72: split to 7 and 2; num: 21
+     7: change to 14168; num: 20
+      14168: change to 28676032; num: 19
+       28676032: split to 2867 and 6032; num: 18
+        2867: split to 28 and 67; num: 17
+         28: split to 2 and 8; num: 16
+          2: change to 4048; num: 15
+           4048: split to 40 and 48; num: 14
+            40: split to 4 and 0; num: 13
+             4: change to 8096; num: 12
+              8096: split to 80 and 96; num: 11
+               80: USED SOLVED VALUE: 51
+               96: split to 9 and 6; num: 10
+                9: USED SOLVED VALUE: 32
+                6: USED SOLVED VALUE: 32
+               96: set solved[96][10] = 32 + 32
+              8096: set solved[8096][11] = 51 + 64
+             4: children returned 115
+             4: set solved[4][12] = 115
+             0: flip to 1; num: 12
+              1: change to 2024; num: 11
+               2024: split to 20 and 24; num: 10
+                20: split to 2 and 0; num: 9
+                 2: change to 4048; num: 8
+                  4048: split to 40 and 48; num: 7
+                   40: split to 4 and 0; num: 6
+                    4: USED SOLVED VALUE: 4
+                    0: USED SOLVED VALUE: 4
+                   40: set solved[40][6] = 4 + 4
+                   48: split to 4 and 8; num: 6
+                    4: USED SOLVED VALUE: 4
+                    8: USED SOLVED VALUE: 7
+                   48: set solved[48][6] = 4 + 7
+                  4048: set solved[4048][7] = 8 + 11
+                 2: children returned 19
+                 2: set solved[2][8] = 19
+                 0: USED SOLVED VALUE: 16
+                20: set solved[20][9] = 19 + 16
+                24: split to 2 and 4; num: 9
+                 2: USED SOLVED VALUE: 19
+                 4: USED SOLVED VALUE: 27
+                24: set solved[24][9] = 19 + 27
+               2024: set solved[2024][10] = 35 + 46
+              1: children returned 81
+              1: set solved[1][11] = 81
+             0: set solved[0][12] = 81
+            40: set solved[40][13] = 115 + 81
+            48: split to 4 and 8; num: 13
+             4: USED SOLVED VALUE: 115
+             8: change to 16192; num: 12
+              16192: change to 32772608; num: 11
+               32772608: split to 3277 and 2608; num: 10
+                3277: split to 32 and 77; num: 9
+                 32: split to 3 and 2; num: 8
+                  3: change to 6072; num: 7
+                   6072: split to 60 and 72; num: 6
+                    60: USED SOLVED VALUE: 8
+                    72: split to 7 and 2; num: 5
+                     7: USED SOLVED VALUE: 4
+                     2: USED SOLVED VALUE: 4
+                    72: set solved[72][5] = 4 + 4
+                   6072: set solved[6072][6] = 8 + 8
+                  3: children returned 16
+                  3: set solved[3][7] = 16
+                  2: USED SOLVED VALUE: 16
+                 32: set solved[32][8] = 16 + 16
+                 77: split to 7 and 7; num: 8
+                  7: change to 14168; num: 7
+                   14168: change to 28676032; num: 6
+                    28676032: split to 2867 and 6032; num: 5
+                     2867: split to 28 and 67; num: 4
+                      28: split to 2 and 8; num: 3
+                       2: USED SOLVED VALUE: 2
+                       8: USED SOLVED VALUE: 1
+                      28: set solved[28][3] = 2 + 1
+                      67: split to 6 and 7; num: 3
+                       6: USED SOLVED VALUE: 1
+                       7: USED SOLVED VALUE: 1
+                      67: set solved[67][3] = 1 + 1
+                     2867: set solved[2867][4] = 3 + 2
+                     6032: split to 60 and 32; num: 4
+                      60: USED SOLVED VALUE: 2
+                      32: USED SOLVED VALUE: 4
+                     6032: set solved[6032][4] = 2 + 4
+                    28676032: set solved[28676032][5] = 5 + 6
+                   14168: children returned 11
+                   14168: set solved[14168][6] = 11
+                  7: children returned 11
+                  7: set solved[7][7] = 11
+                  7: USED SOLVED VALUE: 11
+                 77: set solved[77][8] = 11 + 11
+                3277: set solved[3277][9] = 32 + 22
+                2608: split to 26 and 8; num: 9
+                 26: split to 2 and 6; num: 8
+                  2: USED SOLVED VALUE: 16
+                  6: change to 12144; num: 7
+                   12144: change to 24579456; num: 6
+                    24579456: split to 2457 and 9456; num: 5
+                     2457: split to 24 and 57; num: 4
+                      24: USED SOLVED VALUE: 4
+                      57: split to 5 and 7; num: 3
+                       5: change to 10120; num: 2
+                        10120: change to 20482880; num: 1
+                         20482880: done: returning 1
+                        10120: children returned 1
+                        10120: set solved[10120][1] = 1
+                       5: children returned 1
+                       5: set solved[5][2] = 1
+                       7: USED SOLVED VALUE: 1
+                      57: set solved[57][3] = 1 + 1
+                     2457: set solved[2457][4] = 4 + 2
+                     9456: split to 94 and 56; num: 4
+                      94: split to 9 and 4; num: 3
+                       9: USED SOLVED VALUE: 1
+                       4: USED SOLVED VALUE: 2
+                      94: set solved[94][3] = 1 + 2
+                      56: split to 5 and 6; num: 3
+                       5: USED SOLVED VALUE: 1
+                       6: USED SOLVED VALUE: 1
+                      56: set solved[56][3] = 1 + 1
+                     9456: set solved[9456][4] = 3 + 2
+                    24579456: set solved[24579456][5] = 6 + 5
+                   12144: children returned 11
+                   12144: set solved[12144][6] = 11
+                  6: children returned 11
+                  6: set solved[6][7] = 11
+                 26: set solved[26][8] = 16 + 11
+                 8: USED SOLVED VALUE: 22
+                2608: set solved[2608][9] = 27 + 22
+               32772608: set solved[32772608][10] = 54 + 49
+              16192: children returned 103
+              16192: set solved[16192][11] = 103
+             8: children returned 103
+             8: set solved[8][12] = 103
+            48: set solved[48][13] = 115 + 103
+           4048: set solved[4048][14] = 196 + 218
+          2: children returned 414
+          2: set solved[2][15] = 414
+          8: change to 16192; num: 15
+           16192: change to 32772608; num: 14
+            32772608: split to 3277 and 2608; num: 13
+             3277: split to 32 and 77; num: 12
+              32: split to 3 and 2; num: 11
+               3: change to 6072; num: 10
+                6072: split to 60 and 72; num: 9
+                 60: split to 6 and 0; num: 8
+                  6: USED SOLVED VALUE: 11
+                  0: USED SOLVED VALUE: 14
+                 60: set solved[60][8] = 11 + 14
+                 72: split to 7 and 2; num: 8
+                  7: USED SOLVED VALUE: 11
+                  2: USED SOLVED VALUE: 16
+                 72: set solved[72][8] = 11 + 16
+                6072: set solved[6072][9] = 25 + 27
+               3: children returned 52
+               3: set solved[3][10] = 52
+               2: change to 4048; num: 10
+                4048: split to 40 and 48; num: 9
+                 40: split to 4 and 0; num: 8
+                  4: USED SOLVED VALUE: 16
+                  0: USED SOLVED VALUE: 14
+                 40: set solved[40][8] = 16 + 14
+                 48: split to 4 and 8; num: 8
+                  4: USED SOLVED VALUE: 16
+                  8: USED SOLVED VALUE: 11
+                 48: set solved[48][8] = 16 + 11
+                4048: set solved[4048][9] = 30 + 27
+               2: children returned 57
+               2: set solved[2][10] = 57
+              32: set solved[32][11] = 52 + 57
+              77: split to 7 and 7; num: 11
+               7: change to 14168; num: 10
+                14168: change to 28676032; num: 9
+                 28676032: split to 2867 and 6032; num: 8
+                  2867: split to 28 and 67; num: 7
+                   28: split to 2 and 8; num: 6
+                    2: USED SOLVED VALUE: 6
+                    8: USED SOLVED VALUE: 7
+                   28: set solved[28][6] = 6 + 7
+                   67: split to 6 and 7; num: 6
+                    6: USED SOLVED VALUE: 8
+                    7: USED SOLVED VALUE: 8
+                   67: set solved[67][6] = 8 + 8
+                  2867: set solved[2867][7] = 13 + 16
+                  6032: split to 60 and 32; num: 7
+                   60: split to 6 and 0; num: 6
+                    6: USED SOLVED VALUE: 8
+                    0: USED SOLVED VALUE: 4
+                   60: set solved[60][6] = 8 + 4
+                   32: USED SOLVED VALUE: 11
+                  6032: set solved[6032][7] = 12 + 11
+                 28676032: set solved[28676032][8] = 29 + 23
+                14168: children returned 52
+                14168: set solved[14168][9] = 52
+               7: children returned 52
+               7: set solved[7][10] = 52
+               7: USED SOLVED VALUE: 52
+              77: set solved[77][11] = 52 + 52
+             3277: set solved[3277][12] = 109 + 104
+             2608: split to 26 and 8; num: 12
+              26: split to 2 and 6; num: 11
+               2: USED SOLVED VALUE: 57
+               6: change to 12144; num: 10
+                12144: change to 24579456; num: 9
+                 24579456: split to 2457 and 9456; num: 8
+                  2457: split to 24 and 57; num: 7
+                   24: USED SOLVED VALUE: 10
+                   57: split to 5 and 7; num: 6
+                    5: change to 10120; num: 5
+                     10120: change to 20482880; num: 4
+                      20482880: split to 2048 and 2880; num: 3
+                       2048: split to 20 and 48; num: 2
+                        20: USED SOLVED VALUE: 2
+                        48: USED SOLVED VALUE: 2
+                       2048: set solved[2048][2] = 2 + 2
+                       2880: split to 28 and 80; num: 2
+                        28: USED SOLVED VALUE: 2
+                        80: USED SOLVED VALUE: 2
+                       2880: set solved[2880][2] = 2 + 2
+                      20482880: set solved[20482880][3] = 4 + 4
+                     10120: children returned 8
+                     10120: set solved[10120][4] = 8
+                    5: children returned 8
+                    5: set solved[5][5] = 8
+                    7: USED SOLVED VALUE: 8
+                   57: set solved[57][6] = 8 + 8
+                  2457: set solved[2457][7] = 10 + 16
+                  9456: split to 94 and 56; num: 7
+                   94: split to 9 and 4; num: 6
+                    9: USED SOLVED VALUE: 8
+                    4: USED SOLVED VALUE: 4
+                   94: set solved[94][6] = 8 + 4
+                   56: split to 5 and 6; num: 6
+                    5: USED SOLVED VALUE: 8
+                    6: USED SOLVED VALUE: 8
+                   56: set solved[56][6] = 8 + 8
+                  9456: set solved[9456][7] = 12 + 16
+                 24579456: set solved[24579456][8] = 26 + 28
+                12144: children returned 54
+                12144: set solved[12144][9] = 54
+               6: children returned 54
+               6: set solved[6][10] = 54
+              26: set solved[26][11] = 57 + 54
+              8: USED SOLVED VALUE: 69
+             2608: set solved[2608][12] = 111 + 69
+            32772608: set solved[32772608][13] = 213 + 180
+           16192: children returned 393
+           16192: set solved[16192][14] = 393
+          8: children returned 393
+          8: set solved[8][15] = 393
+         28: set solved[28][16] = 414 + 393
+         67: split to 6 and 7; num: 16
+          6: change to 12144; num: 15
+           12144: change to 24579456; num: 14
+            24579456: split to 2457 and 9456; num: 13
+             2457: split to 24 and 57; num: 12
+              24: split to 2 and 4; num: 11
+               2: USED SOLVED VALUE: 57
+               4: change to 8096; num: 10
+                8096: split to 80 and 96; num: 9
+                 80: split to 8 and 0; num: 8
+                  8: USED SOLVED VALUE: 11
+                  0: USED SOLVED VALUE: 14
+                 80: set solved[80][8] = 11 + 14
+                 96: split to 9 and 6; num: 8
+                  9: change to 18216; num: 7
+                   18216: change to 36869184; num: 6
+                    36869184: split to 3686 and 9184; num: 5
+                     3686: split to 36 and 86; num: 4
+                      36: split to 3 and 6; num: 3
+                       3: USED SOLVED VALUE: 2
+                       6: USED SOLVED VALUE: 1
+                      36: set solved[36][3] = 2 + 1
+                      86: split to 8 and 6; num: 3
+                       8: USED SOLVED VALUE: 1
+                       6: USED SOLVED VALUE: 1
+                      86: set solved[86][3] = 1 + 1
+                     3686: set solved[3686][4] = 3 + 2
+                     9184: split to 91 and 84; num: 4
+                      91: split to 9 and 1; num: 3
+                       9: USED SOLVED VALUE: 1
+                       1: USED SOLVED VALUE: 2
+                      91: set solved[91][3] = 1 + 2
+                      84: split to 8 and 4; num: 3
+                       8: USED SOLVED VALUE: 1
+                       4: USED SOLVED VALUE: 2
+                      84: set solved[84][3] = 1 + 2
+                     9184: set solved[9184][4] = 3 + 3
+                    36869184: set solved[36869184][5] = 5 + 6
+                   18216: children returned 11
+                   18216: set solved[18216][6] = 11
+                  9: children returned 11
+                  9: set solved[9][7] = 11
+                  6: USED SOLVED VALUE: 11
+                 96: set solved[96][8] = 11 + 11
+                8096: set solved[8096][9] = 25 + 22
+               4: children returned 47
+               4: set solved[4][10] = 47
+              24: set solved[24][11] = 57 + 47
+              57: split to 5 and 7; num: 11
+               5: change to 10120; num: 10
+                10120: change to 20482880; num: 9
+                 20482880: split to 2048 and 2880; num: 8
+                  2048: split to 20 and 48; num: 7
+                   20: USED SOLVED VALUE: 10
+                   48: USED SOLVED VALUE: 11
+                  2048: set solved[2048][7] = 10 + 11
+                  2880: split to 28 and 80; num: 7
+                   28: USED SOLVED VALUE: 13
+                   80: USED SOLVED VALUE: 11
+                  2880: set solved[2880][7] = 13 + 11
+                 20482880: set solved[20482880][8] = 21 + 24
+                10120: children returned 45
+                10120: set solved[10120][9] = 45
+               5: children returned 45
+               5: set solved[5][10] = 45
+               7: USED SOLVED VALUE: 52
+              57: set solved[57][11] = 45 + 52
+             2457: set solved[2457][12] = 104 + 97
+             9456: split to 94 and 56; num: 12
+              94: split to 9 and 4; num: 11
+               9: change to 18216; num: 10
+                18216: change to 36869184; num: 9
+                 36869184: split to 3686 and 9184; num: 8
+                  3686: split to 36 and 86; num: 7
+                   36: split to 3 and 6; num: 6
+                    3: USED SOLVED VALUE: 5
+                    6: USED SOLVED VALUE: 8
+                   36: set solved[36][6] = 5 + 8
+                   86: split to 8 and 6; num: 6
+                    8: USED SOLVED VALUE: 7
+                    6: USED SOLVED VALUE: 8
+                   86: set solved[86][6] = 7 + 8
+                  3686: set solved[3686][7] = 13 + 15
+                  9184: split to 91 and 84; num: 7
+                   91: split to 9 and 1; num: 6
+                    9: USED SOLVED VALUE: 8
+                    1: USED SOLVED VALUE: 7
+                   91: set solved[91][6] = 8 + 7
+                   84: split to 8 and 4; num: 6
+                    8: USED SOLVED VALUE: 7
+                    4: USED SOLVED VALUE: 4
+                   84: set solved[84][6] = 7 + 4
+                  9184: set solved[9184][7] = 15 + 11
+                 36869184: set solved[36869184][8] = 28 + 26
+                18216: children returned 54
+                18216: set solved[18216][9] = 54
+               9: children returned 54
+               9: set solved[9][10] = 54
+               4: USED SOLVED VALUE: 47
+              94: set solved[94][11] = 54 + 47
+              56: split to 5 and 6; num: 11
+               5: USED SOLVED VALUE: 45
+               6: USED SOLVED VALUE: 54
+              56: set solved[56][11] = 45 + 54
+             9456: set solved[9456][12] = 101 + 99
+            24579456: set solved[24579456][13] = 201 + 200
+           12144: children returned 401
+           12144: set solved[12144][14] = 401
+          6: children returned 401
+          6: set solved[6][15] = 401
+          7: change to 14168; num: 15
+           14168: change to 28676032; num: 14
+            28676032: split to 2867 and 6032; num: 13
+             2867: split to 28 and 67; num: 12
+              28: split to 2 and 8; num: 11
+               2: USED SOLVED VALUE: 57
+               8: USED SOLVED VALUE: 48
+              28: set solved[28][11] = 57 + 48
+              67: split to 6 and 7; num: 11
+               6: USED SOLVED VALUE: 54
+               7: USED SOLVED VALUE: 52
+              67: set solved[67][11] = 54 + 52
+             2867: set solved[2867][12] = 105 + 106
+             6032: split to 60 and 32; num: 12
+              60: split to 6 and 0; num: 11
+               6: USED SOLVED VALUE: 54
+               0: flip to 1; num: 10
+                1: USED SOLVED VALUE: 39
+               0: set solved[0][10] = 39
+              60: set solved[60][11] = 54 + 39
+              32: USED SOLVED VALUE: 109
+             6032: set solved[6032][12] = 93 + 109
+            28676032: set solved[28676032][13] = 211 + 202
+           14168: children returned 413
+           14168: set solved[14168][14] = 413
+          7: children returned 413
+          7: set solved[7][15] = 413
+         67: set solved[67][16] = 401 + 413
+        2867: set solved[2867][17] = 807 + 814
+        6032: split to 60 and 32; num: 17
+         60: split to 6 and 0; num: 16
+          6: USED SOLVED VALUE: 401
+          0: flip to 1; num: 15
+           1: USED SOLVED VALUE: 328
+          0: set solved[0][15] = 328
+         60: set solved[60][16] = 401 + 328
+         32: split to 3 and 2; num: 16
+          3: change to 6072; num: 15
+           6072: split to 60 and 72; num: 14
+            60: split to 6 and 0; num: 13
+             6: change to 12144; num: 12
+              12144: change to 24579456; num: 11
+               24579456: split to 2457 and 9456; num: 10
+                2457: split to 24 and 57; num: 9
+                 24: USED SOLVED VALUE: 32
+                 57: split to 5 and 7; num: 8
+                  5: change to 10120; num: 7
+                   10120: change to 20482880; num: 6
+                    20482880: split to 2048 and 2880; num: 5
+                     2048: split to 20 and 48; num: 4
+                      20: USED SOLVED VALUE: 3
+                      48: USED SOLVED VALUE: 3
+                     2048: set solved[2048][4] = 3 + 3
+                     2880: split to 28 and 80; num: 4
+                      28: USED SOLVED VALUE: 3
+                      80: USED SOLVED VALUE: 2
+                     2880: set solved[2880][4] = 3 + 2
+                    20482880: set solved[20482880][5] = 6 + 5
+                   10120: children returned 11
+                   10120: set solved[10120][6] = 11
+                  5: children returned 11
+                  5: set solved[5][7] = 11
+                  7: USED SOLVED VALUE: 11
+                 57: set solved[57][8] = 11 + 11
+                2457: set solved[2457][9] = 32 + 22
+                9456: split to 94 and 56; num: 9
+                 94: split to 9 and 4; num: 8
+                  9: USED SOLVED VALUE: 11
+                  4: USED SOLVED VALUE: 16
+                 94: set solved[94][8] = 11 + 16
+                 56: split to 5 and 6; num: 8
+                  5: USED SOLVED VALUE: 11
+                  6: USED SOLVED VALUE: 11
+                 56: set solved[56][8] = 11 + 11
+                9456: set solved[9456][9] = 27 + 22
+               24579456: set solved[24579456][10] = 54 + 49
+              12144: children returned 103
+              12144: set solved[12144][11] = 103
+             6: children returned 103
+             6: set solved[6][12] = 103
+             0: USED SOLVED VALUE: 81
+            60: set solved[60][13] = 103 + 81
+            72: split to 7 and 2; num: 13
+             7: change to 14168; num: 12
+              14168: change to 28676032; num: 11
+               28676032: split to 2867 and 6032; num: 10
+                2867: split to 28 and 67; num: 9
+                 28: split to 2 and 8; num: 8
+                  2: USED SOLVED VALUE: 16
+                  8: USED SOLVED VALUE: 11
+                 28: set solved[28][8] = 16 + 11
+                 67: split to 6 and 7; num: 8
+                  6: USED SOLVED VALUE: 11
+                  7: USED SOLVED VALUE: 11
+                 67: set solved[67][8] = 11 + 11
+                2867: set solved[2867][9] = 27 + 22
+                6032: split to 60 and 32; num: 9
+                 60: USED SOLVED VALUE: 25
+                 32: USED SOLVED VALUE: 32
+                6032: set solved[6032][9] = 25 + 32
+               28676032: set solved[28676032][10] = 49 + 57
+              14168: children returned 106
+              14168: set solved[14168][11] = 106
+             7: children returned 106
+             7: set solved[7][12] = 106
+             2: change to 4048; num: 12
+              4048: split to 40 and 48; num: 11
+               40: split to 4 and 0; num: 10
+                4: USED SOLVED VALUE: 30
+                0: USED SOLVED VALUE: 20
+               40: set solved[40][10] = 30 + 20
+               48: USED SOLVED VALUE: 61
+              4048: set solved[4048][11] = 50 + 61
+             2: children returned 111
+             2: set solved[2][12] = 111
+            72: set solved[72][13] = 106 + 111
+           6072: set solved[6072][14] = 184 + 217
+          3: children returned 401
+          3: set solved[3][15] = 401
+          2: USED SOLVED VALUE: 414
+         32: set solved[32][16] = 401 + 414
+        6032: set solved[6032][17] = 729 + 815
+       28676032: set solved[28676032][18] = 1621 + 1544
+      14168: children returned 3165
+      14168: set solved[14168][19] = 3165
+     7: children returned 3165
+     7: set solved[7][20] = 3165
+     2: change to 4048; num: 20
+      4048: split to 40 and 48; num: 19
+       40: split to 4 and 0; num: 18
+        4: change to 8096; num: 17
+         8096: split to 80 and 96; num: 16
+          80: split to 8 and 0; num: 15
+           8: USED SOLVED VALUE: 239
+           0: flip to 1; num: 14
+            1: change to 2024; num: 13
+             2024: split to 20 and 24; num: 12
+              20: split to 2 and 0; num: 11
+               2: USED SOLVED VALUE: 57
+               0: USED SOLVED VALUE: 39
+              20: set solved[20][11] = 57 + 39
+              24: USED SOLVED VALUE: 104
+             2024: set solved[2024][12] = 96 + 104
+            1: children returned 200
+            1: set solved[1][13] = 200
+           0: set solved[0][14] = 200
+          80: set solved[80][15] = 239 + 200
+          96: split to 9 and 6; num: 15
+           9: USED SOLVED VALUE: 262
+           6: USED SOLVED VALUE: 250
+          96: set solved[96][15] = 262 + 250
+         8096: set solved[8096][16] = 439 + 512
+        4: children returned 951
+        4: set solved[4][17] = 951
+        0: flip to 1; num: 17
+         1: change to 2024; num: 16
+          2024: split to 20 and 24; num: 15
+           20: split to 2 and 0; num: 14
+            2: change to 4048; num: 13
+             4048: split to 40 and 48; num: 12
+              40: split to 4 and 0; num: 11
+               4: USED SOLVED VALUE: 47
+               0: USED SOLVED VALUE: 39
+              40: set solved[40][11] = 47 + 39
+              48: split to 4 and 8; num: 11
+               4: USED SOLVED VALUE: 47
+               8: USED SOLVED VALUE: 48
+              48: set solved[48][11] = 47 + 48
+             4048: set solved[4048][12] = 86 + 95
+            2: children returned 181
+            2: set solved[2][13] = 181
+            0: flip to 1; num: 13
+             1: change to 2024; num: 12
+              2024: split to 20 and 24; num: 11
+               20: USED SOLVED VALUE: 50
+               24: USED SOLVED VALUE: 60
+              2024: set solved[2024][11] = 50 + 60
+             1: children returned 110
+             1: set solved[1][12] = 110
+            0: set solved[0][13] = 110
+           20: set solved[20][14] = 181 + 110
+           24: split to 2 and 4; num: 14
+            2: USED SOLVED VALUE: 181
+            4: change to 8096; num: 13
+             8096: split to 80 and 96; num: 12
+              80: split to 8 and 0; num: 11
+               8: USED SOLVED VALUE: 48
+               0: USED SOLVED VALUE: 39
+              80: set solved[80][11] = 48 + 39
+              96: split to 9 and 6; num: 11
+               9: USED SOLVED VALUE: 54
+               6: USED SOLVED VALUE: 54
+              96: set solved[96][11] = 54 + 54
+             8096: set solved[8096][12] = 87 + 108
+            4: children returned 195
+            4: set solved[4][13] = 195
+           24: set solved[24][14] = 181 + 195
+          2024: set solved[2024][15] = 291 + 376
+         1: children returned 667
+         1: set solved[1][16] = 667
+        0: set solved[0][17] = 667
+       40: set solved[40][18] = 951 + 667
+       48: split to 4 and 8; num: 18
+        4: USED SOLVED VALUE: 951
+        8: change to 16192; num: 17
+         16192: change to 32772608; num: 16
+          32772608: split to 3277 and 2608; num: 15
+           3277: split to 32 and 77; num: 14
+            32: split to 3 and 2; num: 13
+             3: change to 6072; num: 12
+              6072: split to 60 and 72; num: 11
+               60: USED SOLVED VALUE: 52
+               72: split to 7 and 2; num: 10
+                7: USED SOLVED VALUE: 32
+                2: USED SOLVED VALUE: 30
+               72: set solved[72][10] = 32 + 30
+              6072: set solved[6072][11] = 52 + 62
+             3: children returned 114
+             3: set solved[3][12] = 114
+             2: USED SOLVED VALUE: 111
+            32: set solved[32][13] = 114 + 111
+            77: split to 7 and 7; num: 13
+             7: USED SOLVED VALUE: 106
+             7: USED SOLVED VALUE: 106
+            77: set solved[77][13] = 106 + 106
+           3277: set solved[3277][14] = 225 + 212
+           2608: split to 26 and 8; num: 14
+            26: split to 2 and 6; num: 13
+             2: USED SOLVED VALUE: 111
+             6: USED SOLVED VALUE: 103
+            26: set solved[26][13] = 111 + 103
+            8: change to 16192; num: 13
+             16192: change to 32772608; num: 12
+              32772608: split to 3277 and 2608; num: 11
+               3277: split to 32 and 77; num: 10
+                32: split to 3 and 2; num: 9
+                 3: change to 6072; num: 8
+                  6072: split to 60 and 72; num: 7
+                   60: USED SOLVED VALUE: 12
+                   72: split to 7 and 2; num: 6
+                    7: USED SOLVED VALUE: 8
+                    2: USED SOLVED VALUE: 6
+                   72: set solved[72][6] = 8 + 6
+                  6072: set solved[6072][7] = 12 + 14
+                 3: children returned 26
+                 3: set solved[3][8] = 26
+                 2: USED SOLVED VALUE: 19
+                32: set solved[32][9] = 26 + 19
+                77: split to 7 and 7; num: 9
+                 7: change to 14168; num: 8
+                  14168: change to 28676032; num: 7
+                   28676032: split to 2867 and 6032; num: 6
+                    2867: split to 28 and 67; num: 5
+                     28: split to 2 and 8; num: 4
+                      2: USED SOLVED VALUE: 4
+                      8: USED SOLVED VALUE: 2
+                     28: set solved[28][4] = 4 + 2
+                     67: split to 6 and 7; num: 4
+                      6: USED SOLVED VALUE: 2
+                      7: USED SOLVED VALUE: 2
+                     67: set solved[67][4] = 2 + 2
+                    2867: set solved[2867][5] = 6 + 4
+                    6032: split to 60 and 32; num: 5
+                     60: USED SOLVED VALUE: 4
+                     32: USED SOLVED VALUE: 8
+                    6032: set solved[6032][5] = 4 + 8
+                   28676032: set solved[28676032][6] = 10 + 12
+                  14168: children returned 22
+                  14168: set solved[14168][7] = 22
+                 7: children returned 22
+                 7: set solved[7][8] = 22
+                 7: USED SOLVED VALUE: 22
+                77: set solved[77][9] = 22 + 22
+               3277: set solved[3277][10] = 45 + 44
+               2608: split to 26 and 8; num: 10
+                26: split to 2 and 6; num: 9
+                 2: USED SOLVED VALUE: 19
+                 6: USED SOLVED VALUE: 22
+                26: set solved[26][9] = 19 + 22
+                8: USED SOLVED VALUE: 31
+               2608: set solved[2608][10] = 41 + 31
+              32772608: set solved[32772608][11] = 89 + 72
+             16192: children returned 161
+             16192: set solved[16192][12] = 161
+            8: children returned 161
+            8: set solved[8][13] = 161
+           2608: set solved[2608][14] = 214 + 161
+          32772608: set solved[32772608][15] = 437 + 375
+         16192: children returned 812
+         16192: set solved[16192][16] = 812
+        8: children returned 812
+        8: set solved[8][17] = 812
+       48: set solved[48][18] = 951 + 812
+      4048: set solved[4048][19] = 1618 + 1763
+     2: children returned 3381
+     2: set solved[2][20] = 3381
+    72: set solved[72][21] = 3165 + 3381
+   512072: set solved[512072][22] = 4211 + 6546
+  253: children returned 10757
+  253: set solved[253][23] = 10757
+  0: flip to 1; num: 23
+   1: change to 2024; num: 22
+    2024: split to 20 and 24; num: 21
+     20: split to 2 and 0; num: 20
+      2: change to 4048; num: 19
+       4048: split to 40 and 48; num: 18
+        40: split to 4 and 0; num: 17
+         4: change to 8096; num: 16
+          8096: split to 80 and 96; num: 15
+           80: split to 8 and 0; num: 14
+            8: USED SOLVED VALUE: 161
+            0: USED SOLVED VALUE: 110
+           80: set solved[80][14] = 161 + 110
+           96: split to 9 and 6; num: 14
+            9: change to 18216; num: 13
+             18216: change to 36869184; num: 12
+              36869184: split to 3686 and 9184; num: 11
+               3686: split to 36 and 86; num: 10
+                36: split to 3 and 6; num: 9
+                 3: USED SOLVED VALUE: 26
+                 6: USED SOLVED VALUE: 22
+                36: set solved[36][9] = 26 + 22
+                86: split to 8 and 6; num: 9
+                 8: USED SOLVED VALUE: 22
+                 6: USED SOLVED VALUE: 22
+                86: set solved[86][9] = 22 + 22
+               3686: set solved[3686][10] = 48 + 44
+               9184: split to 91 and 84; num: 10
+                91: split to 9 and 1; num: 9
+                 9: USED SOLVED VALUE: 22
+                 1: USED SOLVED VALUE: 20
+                91: set solved[91][9] = 22 + 20
+                84: split to 8 and 4; num: 9
+                 8: USED SOLVED VALUE: 22
+                 4: USED SOLVED VALUE: 27
+                84: set solved[84][9] = 22 + 27
+               9184: set solved[9184][10] = 42 + 49
+              36869184: set solved[36869184][11] = 92 + 91
+             18216: children returned 183
+             18216: set solved[18216][12] = 183
+            9: children returned 183
+            9: set solved[9][13] = 183
+            6: change to 12144; num: 13
+             12144: change to 24579456; num: 12
+              24579456: split to 2457 and 9456; num: 11
+               2457: split to 24 and 57; num: 10
+                24: USED SOLVED VALUE: 46
+                57: split to 5 and 7; num: 9
+                 5: change to 10120; num: 8
+                  10120: change to 20482880; num: 7
+                   20482880: split to 2048 and 2880; num: 6
+                    2048: split to 20 and 48; num: 5
+                     20: USED SOLVED VALUE: 6
+                     48: USED SOLVED VALUE: 6
+                    2048: set solved[2048][5] = 6 + 6
+                    2880: split to 28 and 80; num: 5
+                     28: USED SOLVED VALUE: 6
+                     80: USED SOLVED VALUE: 4
+                    2880: set solved[2880][5] = 6 + 4
+                   20482880: set solved[20482880][6] = 12 + 10
+                  10120: children returned 22
+                  10120: set solved[10120][7] = 22
+                 5: children returned 22
+                 5: set solved[5][8] = 22
+                 7: USED SOLVED VALUE: 22
+                57: set solved[57][9] = 22 + 22
+               2457: set solved[2457][10] = 46 + 44
+               9456: split to 94 and 56; num: 10
+                94: split to 9 and 4; num: 9
+                 9: USED SOLVED VALUE: 22
+                 4: USED SOLVED VALUE: 27
+                94: set solved[94][9] = 22 + 27
+                56: split to 5 and 6; num: 9
+                 5: USED SOLVED VALUE: 22
+                 6: USED SOLVED VALUE: 22
+                56: set solved[56][9] = 22 + 22
+               9456: set solved[9456][10] = 49 + 44
+              24579456: set solved[24579456][11] = 90 + 93
+             12144: children returned 183
+             12144: set solved[12144][12] = 183
+            6: children returned 183
+            6: set solved[6][13] = 183
+           96: set solved[96][14] = 183 + 183
+          8096: set solved[8096][15] = 271 + 366
+         4: children returned 637
+         4: set solved[4][16] = 637
+         0: flip to 1; num: 16
+          1: change to 2024; num: 15
+           2024: split to 20 and 24; num: 14
+            20: split to 2 and 0; num: 13
+             2: USED SOLVED VALUE: 111
+             0: USED SOLVED VALUE: 81
+            20: set solved[20][13] = 111 + 81
+            24: split to 2 and 4; num: 13
+             2: USED SOLVED VALUE: 111
+             4: USED SOLVED VALUE: 115
+            24: set solved[24][13] = 111 + 115
+           2024: set solved[2024][14] = 192 + 226
+          1: children returned 418
+          1: set solved[1][15] = 418
+         0: set solved[0][16] = 418
+        40: set solved[40][17] = 637 + 418
+        48: split to 4 and 8; num: 17
+         4: USED SOLVED VALUE: 637
+         8: change to 16192; num: 16
+          16192: change to 32772608; num: 15
+           32772608: split to 3277 and 2608; num: 14
+            3277: split to 32 and 77; num: 13
+             32: split to 3 and 2; num: 12
+              3: change to 6072; num: 11
+               6072: split to 60 and 72; num: 10
+                60: split to 6 and 0; num: 9
+                 6: USED SOLVED VALUE: 22
+                 0: USED SOLVED VALUE: 16
+                60: set solved[60][9] = 22 + 16
+                72: split to 7 and 2; num: 9
+                 7: USED SOLVED VALUE: 22
+                 2: USED SOLVED VALUE: 19
+                72: set solved[72][9] = 22 + 19
+               6072: set solved[6072][10] = 38 + 41
+              3: children returned 79
+              3: set solved[3][11] = 79
+              2: USED SOLVED VALUE: 92
+             32: set solved[32][12] = 79 + 92
+             77: split to 7 and 7; num: 12
+              7: USED SOLVED VALUE: 72
+              7: USED SOLVED VALUE: 72
+             77: set solved[77][12] = 72 + 72
+            3277: set solved[3277][13] = 171 + 144
+            2608: split to 26 and 8; num: 13
+             26: split to 2 and 6; num: 12
+              2: USED SOLVED VALUE: 92
+              6: USED SOLVED VALUE: 68
+             26: set solved[26][12] = 92 + 68
+             8: USED SOLVED VALUE: 103
+            2608: set solved[2608][13] = 160 + 103
+           32772608: set solved[32772608][14] = 315 + 263
+          16192: children returned 578
+          16192: set solved[16192][15] = 578
+         8: children returned 578
+         8: set solved[8][16] = 578
+        48: set solved[48][17] = 637 + 578
+       4048: set solved[4048][18] = 1055 + 1215
+      2: children returned 2270
+      2: set solved[2][19] = 2270
+      0: flip to 1; num: 19
+       1: change to 2024; num: 18
+        2024: split to 20 and 24; num: 17
+         20: split to 2 and 0; num: 16
+          2: USED SOLVED VALUE: 414
+          0: USED SOLVED VALUE: 328
+         20: set solved[20][16] = 414 + 328
+         24: split to 2 and 4; num: 16
+          2: USED SOLVED VALUE: 414
+          4: change to 8096; num: 15
+           8096: split to 80 and 96; num: 14
+            80: split to 8 and 0; num: 13
+             8: USED SOLVED VALUE: 103
+             0: USED SOLVED VALUE: 81
+            80: set solved[80][13] = 103 + 81
+            96: split to 9 and 6; num: 13
+             9: change to 18216; num: 12
+              18216: change to 36869184; num: 11
+               36869184: split to 3686 and 9184; num: 10
+                3686: split to 36 and 86; num: 9
+                 36: split to 3 and 6; num: 8
+                  3: USED SOLVED VALUE: 16
+                  6: USED SOLVED VALUE: 11
+                 36: set solved[36][8] = 16 + 11
+                 86: split to 8 and 6; num: 8
+                  8: USED SOLVED VALUE: 11
+                  6: USED SOLVED VALUE: 11
+                 86: set solved[86][8] = 11 + 11
+                3686: set solved[3686][9] = 27 + 22
+                9184: split to 91 and 84; num: 9
+                 91: split to 9 and 1; num: 8
+                  9: USED SOLVED VALUE: 11
+                  1: USED SOLVED VALUE: 16
+                 91: set solved[91][8] = 11 + 16
+                 84: split to 8 and 4; num: 8
+                  8: USED SOLVED VALUE: 11
+                  4: USED SOLVED VALUE: 16
+                 84: set solved[84][8] = 11 + 16
+                9184: set solved[9184][9] = 27 + 27
+               36869184: set solved[36869184][10] = 49 + 54
+              18216: children returned 103
+              18216: set solved[18216][11] = 103
+             9: children returned 103
+             9: set solved[9][12] = 103
+             6: USED SOLVED VALUE: 103
+            96: set solved[96][13] = 103 + 103
+           8096: set solved[8096][14] = 184 + 206
+          4: children returned 390
+          4: set solved[4][15] = 390
+         24: set solved[24][16] = 414 + 390
+        2024: set solved[2024][17] = 742 + 804
+       1: children returned 1546
+       1: set solved[1][18] = 1546
+      0: set solved[0][19] = 1546
+     20: set solved[20][20] = 2270 + 1546
+     24: split to 2 and 4; num: 20
+      2: USED SOLVED VALUE: 2270
+      4: change to 8096; num: 19
+       8096: split to 80 and 96; num: 18
+        80: split to 8 and 0; num: 17
+         8: USED SOLVED VALUE: 578
+         0: USED SOLVED VALUE: 418
+        80: set solved[80][17] = 578 + 418
+        96: split to 9 and 6; num: 17
+         9: change to 18216; num: 16
+          18216: change to 36869184; num: 15
+           36869184: split to 3686 and 9184; num: 14
+            3686: split to 36 and 86; num: 13
+             36: split to 3 and 6; num: 12
+              3: USED SOLVED VALUE: 79
+              6: USED SOLVED VALUE: 68
+             36: set solved[36][12] = 79 + 68
+             86: split to 8 and 6; num: 12
+              8: USED SOLVED VALUE: 69
+              6: USED SOLVED VALUE: 68
+             86: set solved[86][12] = 69 + 68
+            3686: set solved[3686][13] = 147 + 137
+            9184: split to 91 and 84; num: 13
+             91: split to 9 and 1; num: 12
+              9: USED SOLVED VALUE: 70
+              1: USED SOLVED VALUE: 81
+             91: set solved[91][12] = 70 + 81
+             84: split to 8 and 4; num: 12
+              8: USED SOLVED VALUE: 69
+              4: USED SOLVED VALUE: 82
+             84: set solved[84][12] = 69 + 82
+            9184: set solved[9184][13] = 151 + 151
+           36869184: set solved[36869184][14] = 284 + 302
+          18216: children returned 586
+          18216: set solved[18216][15] = 586
+         9: children returned 586
+         9: set solved[9][16] = 586
+         6: change to 12144; num: 16
+          12144: change to 24579456; num: 15
+           24579456: split to 2457 and 9456; num: 14
+            2457: split to 24 and 57; num: 13
+             24: USED SOLVED VALUE: 174
+             57: split to 5 and 7; num: 12
+              5: change to 10120; num: 11
+               10120: change to 20482880; num: 10
+                20482880: split to 2048 and 2880; num: 9
+                 2048: split to 20 and 48; num: 8
+                  20: USED SOLVED VALUE: 19
+                  48: USED SOLVED VALUE: 15
+                 2048: set solved[2048][8] = 19 + 15
+                 2880: split to 28 and 80; num: 8
+                  28: USED SOLVED VALUE: 19
+                  80: USED SOLVED VALUE: 14
+                 2880: set solved[2880][8] = 19 + 14
+                20482880: set solved[20482880][9] = 34 + 33
+               10120: children returned 67
+               10120: set solved[10120][10] = 67
+              5: children returned 67
+              5: set solved[5][11] = 67
+              7: USED SOLVED VALUE: 72
+             57: set solved[57][12] = 67 + 72
+            2457: set solved[2457][13] = 174 + 139
+            9456: split to 94 and 56; num: 13
+             94: split to 9 and 4; num: 12
+              9: USED SOLVED VALUE: 70
+              4: USED SOLVED VALUE: 82
+             94: set solved[94][12] = 70 + 82
+             56: split to 5 and 6; num: 12
+              5: USED SOLVED VALUE: 67
+              6: USED SOLVED VALUE: 68
+             56: set solved[56][12] = 67 + 68
+            9456: set solved[9456][13] = 152 + 135
+           24579456: set solved[24579456][14] = 313 + 287
+          12144: children returned 600
+          12144: set solved[12144][15] = 600
+         6: children returned 600
+         6: set solved[6][16] = 600
+        96: set solved[96][17] = 586 + 600
+       8096: set solved[8096][18] = 996 + 1186
+      4: children returned 2182
+      4: set solved[4][19] = 2182
+     24: set solved[24][20] = 2270 + 2182
+    2024: set solved[2024][21] = 3816 + 4452
+   1: children returned 8268
+   1: set solved[1][22] = 8268
+  0: set solved[0][23] = 8268
+ 253000: set solved[253000][24] = 10757 + 8268
+125: children returned 19025
+125: set solved[125][25] = 19025
+17: split to 1 and 7; num: 25
+ 1: change to 2024; num: 24
+  2024: split to 20 and 24; num: 23
+   20: split to 2 and 0; num: 22
+    2: change to 4048; num: 21
+     4048: split to 40 and 48; num: 20
+      40: split to 4 and 0; num: 19
+       4: change to 8096; num: 18
+        8096: split to 80 and 96; num: 17
+         80: split to 8 and 0; num: 16
+          8: USED SOLVED VALUE: 393
+          0: USED SOLVED VALUE: 328
+         80: set solved[80][16] = 393 + 328
+         96: split to 9 and 6; num: 16
+          9: change to 18216; num: 15
+           18216: change to 36869184; num: 14
+            36869184: split to 3686 and 9184; num: 13
+             3686: split to 36 and 86; num: 12
+              36: split to 3 and 6; num: 11
+               3: USED SOLVED VALUE: 52
+               6: USED SOLVED VALUE: 54
+              36: set solved[36][11] = 52 + 54
+              86: split to 8 and 6; num: 11
+               8: USED SOLVED VALUE: 48
+               6: USED SOLVED VALUE: 54
+              86: set solved[86][11] = 48 + 54
+             3686: set solved[3686][12] = 106 + 102
+             9184: split to 91 and 84; num: 12
+              91: split to 9 and 1; num: 11
+               9: USED SOLVED VALUE: 54
+               1: USED SOLVED VALUE: 62
+              91: set solved[91][11] = 54 + 62
+              84: split to 8 and 4; num: 11
+               8: USED SOLVED VALUE: 48
+               4: USED SOLVED VALUE: 47
+              84: set solved[84][11] = 48 + 47
+             9184: set solved[9184][12] = 116 + 95
+            36869184: set solved[36869184][13] = 208 + 211
+           18216: children returned 419
+           18216: set solved[18216][14] = 419
+          9: children returned 419
+          9: set solved[9][15] = 419
+          6: USED SOLVED VALUE: 401
+         96: set solved[96][16] = 419 + 401
+        8096: set solved[8096][17] = 721 + 820
+       4: children returned 1541
+       4: set solved[4][18] = 1541
+       0: flip to 1; num: 18
+        1: change to 2024; num: 17
+         2024: split to 20 and 24; num: 16
+          20: split to 2 and 0; num: 15
+           2: USED SOLVED VALUE: 295
+           0: USED SOLVED VALUE: 200
+          20: set solved[20][15] = 295 + 200
+          24: split to 2 and 4; num: 15
+           2: USED SOLVED VALUE: 295
+           4: USED SOLVED VALUE: 269
+          24: set solved[24][15] = 295 + 269
+         2024: set solved[2024][16] = 495 + 564
+        1: children returned 1059
+        1: set solved[1][17] = 1059
+       0: set solved[0][18] = 1059
+      40: set solved[40][19] = 1541 + 1059
+      48: split to 4 and 8; num: 19
+       4: USED SOLVED VALUE: 1541
+       8: change to 16192; num: 18
+        16192: change to 32772608; num: 17
+         32772608: split to 3277 and 2608; num: 16
+          3277: split to 32 and 77; num: 15
+           32: split to 3 and 2; num: 14
+            3: change to 6072; num: 13
+             6072: split to 60 and 72; num: 12
+              60: USED SOLVED VALUE: 93
+              72: split to 7 and 2; num: 11
+               7: USED SOLVED VALUE: 52
+               2: USED SOLVED VALUE: 57
+              72: set solved[72][11] = 52 + 57
+             6072: set solved[6072][12] = 93 + 109
+            3: children returned 202
+            3: set solved[3][13] = 202
+            2: USED SOLVED VALUE: 181
+           32: set solved[32][14] = 202 + 181
+           77: split to 7 and 7; num: 14
+            7: change to 14168; num: 13
+             14168: change to 28676032; num: 12
+              28676032: split to 2867 and 6032; num: 11
+               2867: split to 28 and 67; num: 10
+                28: split to 2 and 8; num: 9
+                 2: USED SOLVED VALUE: 19
+                 8: USED SOLVED VALUE: 22
+                28: set solved[28][9] = 19 + 22
+                67: split to 6 and 7; num: 9
+                 6: USED SOLVED VALUE: 22
+                 7: USED SOLVED VALUE: 22
+                67: set solved[67][9] = 22 + 22
+               2867: set solved[2867][10] = 41 + 44
+               6032: split to 60 and 32; num: 10
+                60: USED SOLVED VALUE: 38
+                32: USED SOLVED VALUE: 45
+               6032: set solved[6032][10] = 38 + 45
+              28676032: set solved[28676032][11] = 85 + 83
+             14168: children returned 168
+             14168: set solved[14168][12] = 168
+            7: children returned 168
+            7: set solved[7][13] = 168
+            7: USED SOLVED VALUE: 168
+           77: set solved[77][14] = 168 + 168
+          3277: set solved[3277][15] = 383 + 336
+          2608: split to 26 and 8; num: 15
+           26: split to 2 and 6; num: 14
+            2: USED SOLVED VALUE: 181
+            6: USED SOLVED VALUE: 183
+           26: set solved[26][14] = 181 + 183
+           8: USED SOLVED VALUE: 239
+          2608: set solved[2608][15] = 364 + 239
+         32772608: set solved[32772608][16] = 719 + 603
+        16192: children returned 1322
+        16192: set solved[16192][17] = 1322
+       8: children returned 1322
+       8: set solved[8][18] = 1322
+      48: set solved[48][19] = 1541 + 1322
+     4048: set solved[4048][20] = 2600 + 2863
+    2: children returned 5463
+    2: set solved[2][21] = 5463
+    0: flip to 1; num: 21
+     1: change to 2024; num: 20
+      2024: split to 20 and 24; num: 19
+       20: split to 2 and 0; num: 18
+        2: change to 4048; num: 17
+         4048: split to 40 and 48; num: 16
+          40: split to 4 and 0; num: 15
+           4: USED SOLVED VALUE: 269
+           0: USED SOLVED VALUE: 200
+          40: set solved[40][15] = 269 + 200
+          48: split to 4 and 8; num: 15
+           4: USED SOLVED VALUE: 269
+           8: USED SOLVED VALUE: 239
+          48: set solved[48][15] = 269 + 239
+         4048: set solved[4048][16] = 469 + 508
+        2: children returned 977
+        2: set solved[2][17] = 977
+        0: USED SOLVED VALUE: 667
+       20: set solved[20][18] = 977 + 667
+       24: split to 2 and 4; num: 18
+        2: USED SOLVED VALUE: 977
+        4: USED SOLVED VALUE: 951
+       24: set solved[24][18] = 977 + 951
+      2024: set solved[2024][19] = 1644 + 1928
+     1: children returned 3572
+     1: set solved[1][20] = 3572
+    0: set solved[0][21] = 3572
+   20: set solved[20][22] = 5463 + 3572
+   24: split to 2 and 4; num: 22
+    2: USED SOLVED VALUE: 5463
+    4: change to 8096; num: 21
+     8096: split to 80 and 96; num: 20
+      80: split to 8 and 0; num: 19
+       8: USED SOLVED VALUE: 1322
+       0: USED SOLVED VALUE: 1059
+      80: set solved[80][19] = 1322 + 1059
+      96: split to 9 and 6; num: 19
+       9: change to 18216; num: 18
+        18216: change to 36869184; num: 17
+         36869184: split to 3686 and 9184; num: 16
+          3686: split to 36 and 86; num: 15
+           36: split to 3 and 6; num: 14
+            3: USED SOLVED VALUE: 202
+            6: USED SOLVED VALUE: 183
+           36: set solved[36][14] = 202 + 183
+           86: split to 8 and 6; num: 14
+            8: USED SOLVED VALUE: 161
+            6: USED SOLVED VALUE: 183
+           86: set solved[86][14] = 161 + 183
+          3686: set solved[3686][15] = 385 + 344
+          9184: split to 91 and 84; num: 15
+           91: split to 9 and 1; num: 14
+            9: USED SOLVED VALUE: 183
+            1: USED SOLVED VALUE: 200
+           91: set solved[91][14] = 183 + 200
+           84: split to 8 and 4; num: 14
+            8: USED SOLVED VALUE: 161
+            4: USED SOLVED VALUE: 195
+           84: set solved[84][14] = 161 + 195
+          9184: set solved[9184][15] = 383 + 356
+         36869184: set solved[36869184][16] = 729 + 739
+        18216: children returned 1468
+        18216: set solved[18216][17] = 1468
+       9: children returned 1468
+       9: set solved[9][18] = 1468
+       6: change to 12144; num: 18
+        12144: change to 24579456; num: 17
+         24579456: split to 2457 and 9456; num: 16
+          2457: split to 24 and 57; num: 15
+           24: USED SOLVED VALUE: 376
+           57: split to 5 and 7; num: 14
+            5: change to 10120; num: 13
+             10120: change to 20482880; num: 12
+              20482880: split to 2048 and 2880; num: 11
+               2048: split to 20 and 48; num: 10
+                20: USED SOLVED VALUE: 35
+                48: USED SOLVED VALUE: 49
+               2048: set solved[2048][10] = 35 + 49
+               2880: split to 28 and 80; num: 10
+                28: USED SOLVED VALUE: 41
+                80: USED SOLVED VALUE: 38
+               2880: set solved[2880][10] = 41 + 38
+              20482880: set solved[20482880][11] = 84 + 79
+             10120: children returned 163
+             10120: set solved[10120][12] = 163
+            5: children returned 163
+            5: set solved[5][13] = 163
+            7: USED SOLVED VALUE: 168
+           57: set solved[57][14] = 163 + 168
+          2457: set solved[2457][15] = 376 + 331
+          9456: split to 94 and 56; num: 15
+           94: split to 9 and 4; num: 14
+            9: USED SOLVED VALUE: 183
+            4: USED SOLVED VALUE: 195
+           94: set solved[94][14] = 183 + 195
+           56: split to 5 and 6; num: 14
+            5: USED SOLVED VALUE: 163
+            6: USED SOLVED VALUE: 183
+           56: set solved[56][14] = 163 + 183
+          9456: set solved[9456][15] = 378 + 346
+         24579456: set solved[24579456][16] = 707 + 724
+        12144: children returned 1431
+        12144: set solved[12144][17] = 1431
+       6: children returned 1431
+       6: set solved[6][18] = 1431
+      96: set solved[96][19] = 1468 + 1431
+     8096: set solved[8096][20] = 2381 + 2899
+    4: children returned 5280
+    4: set solved[4][21] = 5280
+   24: set solved[24][22] = 5463 + 5280
+  2024: set solved[2024][23] = 9035 + 10743
+ 1: children returned 19778
+ 1: set solved[1][24] = 19778
+ 7: change to 14168; num: 24
+  14168: change to 28676032; num: 23
+   28676032: split to 2867 and 6032; num: 22
+    2867: split to 28 and 67; num: 21
+     28: split to 2 and 8; num: 20
+      2: USED SOLVED VALUE: 2270
+      8: change to 16192; num: 19
+       16192: change to 32772608; num: 18
+        32772608: split to 3277 and 2608; num: 17
+         3277: split to 32 and 77; num: 16
+          32: split to 3 and 2; num: 15
+           3: USED SOLVED VALUE: 294
+           2: USED SOLVED VALUE: 295
+          32: set solved[32][15] = 294 + 295
+          77: split to 7 and 7; num: 15
+           7: USED SOLVED VALUE: 242
+           7: USED SOLVED VALUE: 242
+          77: set solved[77][15] = 242 + 242
+         3277: set solved[3277][16] = 589 + 484
+         2608: split to 26 and 8; num: 16
+          26: split to 2 and 6; num: 15
+           2: USED SOLVED VALUE: 295
+           6: USED SOLVED VALUE: 250
+          26: set solved[26][15] = 295 + 250
+          8: USED SOLVED VALUE: 393
+         2608: set solved[2608][16] = 545 + 393
+        32772608: set solved[32772608][17] = 1073 + 938
+       16192: children returned 2011
+       16192: set solved[16192][18] = 2011
+      8: children returned 2011
+      8: set solved[8][19] = 2011
+     28: set solved[28][20] = 2270 + 2011
+     67: split to 6 and 7; num: 20
+      6: change to 12144; num: 19
+       12144: change to 24579456; num: 18
+        24579456: split to 2457 and 9456; num: 17
+         2457: split to 24 and 57; num: 16
+          24: USED SOLVED VALUE: 564
+          57: split to 5 and 7; num: 15
+           5: USED SOLVED VALUE: 223
+           7: USED SOLVED VALUE: 242
+          57: set solved[57][15] = 223 + 242
+         2457: set solved[2457][16] = 564 + 465
+         9456: split to 94 and 56; num: 16
+          94: USED SOLVED VALUE: 531
+          56: split to 5 and 6; num: 15
+           5: USED SOLVED VALUE: 223
+           6: USED SOLVED VALUE: 250
+          56: set solved[56][15] = 223 + 250
+         9456: set solved[9456][16] = 531 + 473
+        24579456: set solved[24579456][17] = 1029 + 1004
+       12144: children returned 2033
+       12144: set solved[12144][18] = 2033
+      6: children returned 2033
+      6: set solved[6][19] = 2033
+      7: change to 14168; num: 19
+       14168: change to 28676032; num: 18
+        28676032: split to 2867 and 6032; num: 17
+         2867: split to 28 and 67; num: 16
+          28: split to 2 and 8; num: 15
+           2: USED SOLVED VALUE: 295
+           8: USED SOLVED VALUE: 239
+          28: set solved[28][15] = 295 + 239
+          67: split to 6 and 7; num: 15
+           6: USED SOLVED VALUE: 250
+           7: USED SOLVED VALUE: 242
+          67: set solved[67][15] = 250 + 242
+         2867: set solved[2867][16] = 534 + 492
+         6032: split to 60 and 32; num: 16
+          60: split to 6 and 0; num: 15
+           6: USED SOLVED VALUE: 250
+           0: USED SOLVED VALUE: 200
+          60: set solved[60][15] = 250 + 200
+          32: USED SOLVED VALUE: 589
+         6032: set solved[6032][16] = 450 + 589
+        28676032: set solved[28676032][17] = 1026 + 1039
+       14168: children returned 2065
+       14168: set solved[14168][18] = 2065
+      7: children returned 2065
+      7: set solved[7][19] = 2065
+     67: set solved[67][20] = 2033 + 2065
+    2867: set solved[2867][21] = 4281 + 4098
+    6032: split to 60 and 32; num: 21
+     60: split to 6 and 0; num: 20
+      6: USED SOLVED VALUE: 2033
+      0: USED SOLVED VALUE: 1546
+     60: set solved[60][20] = 2033 + 1546
+     32: split to 3 and 2; num: 20
+      3: change to 6072; num: 19
+       6072: split to 60 and 72; num: 18
+        60: split to 6 and 0; num: 17
+         6: USED SOLVED VALUE: 600
+         0: USED SOLVED VALUE: 418
+        60: set solved[60][17] = 600 + 418
+        72: split to 7 and 2; num: 17
+         7: change to 14168; num: 16
+          14168: change to 28676032; num: 15
+           28676032: split to 2867 and 6032; num: 14
+            2867: split to 28 and 67; num: 13
+             28: split to 2 and 8; num: 12
+              2: USED SOLVED VALUE: 92
+              8: USED SOLVED VALUE: 69
+             28: set solved[28][12] = 92 + 69
+             67: split to 6 and 7; num: 12
+              6: USED SOLVED VALUE: 68
+              7: USED SOLVED VALUE: 72
+             67: set solved[67][12] = 68 + 72
+            2867: set solved[2867][13] = 161 + 140
+            6032: split to 60 and 32; num: 13
+             60: USED SOLVED VALUE: 130
+             32: USED SOLVED VALUE: 171
+            6032: set solved[6032][13] = 130 + 171
+           28676032: set solved[28676032][14] = 301 + 301
+          14168: children returned 602
+          14168: set solved[14168][15] = 602
+         7: children returned 602
+         7: set solved[7][16] = 602
+         2: change to 4048; num: 16
+          4048: split to 40 and 48; num: 15
+           40: split to 4 and 0; num: 14
+            4: USED SOLVED VALUE: 195
+            0: USED SOLVED VALUE: 110
+           40: set solved[40][14] = 195 + 110
+           48: split to 4 and 8; num: 14
+            4: USED SOLVED VALUE: 195
+            8: USED SOLVED VALUE: 161
+           48: set solved[48][14] = 195 + 161
+          4048: set solved[4048][15] = 305 + 356
+         2: children returned 661
+         2: set solved[2][16] = 661
+        72: set solved[72][17] = 602 + 661
+       6072: set solved[6072][18] = 1018 + 1263
+      3: children returned 2281
+      3: set solved[3][19] = 2281
+      2: USED SOLVED VALUE: 2270
+     32: set solved[32][20] = 2281 + 2270
+    6032: set solved[6032][21] = 3579 + 4551
+   28676032: set solved[28676032][22] = 8379 + 8130
+  14168: children returned 16509
+  14168: set solved[14168][23] = 16509
+ 7: children returned 16509
+ 7: set solved[7][24] = 16509
+17: set solved[17][25] = 19778 + 16509
+part 2 result: 55312 (0.003 sec)
